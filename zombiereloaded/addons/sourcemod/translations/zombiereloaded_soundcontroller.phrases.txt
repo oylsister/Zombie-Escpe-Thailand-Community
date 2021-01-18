@@ -1,0 +1,165 @@
+"Phrases"
+{
+	"Cookie_Menu"
+	{
+		"en"	"Zombie:Reloaded Sound Settings"
+	}
+	
+	"Menu main zvolume"
+	{
+		"en"	"ZVolume - ZR sound settings"
+	}
+	
+	"Menu_Title_Main"
+	{
+		"en"	"[ZR] Zombie:Reloaded Volume Controller\n \n"
+	}
+	
+	"Menu_ZSound"
+	{
+		"en"	"Zombie Voice"
+	}
+	
+	"Menu_Countdown"
+	{
+		"en"	"Infection Countdown"
+	}
+	
+	"Menu_Ambient"
+	{
+		"en"	"Ambience"
+	}
+	
+	"Menu_Title_ZSound"
+	{
+		"en"	"[ZR] Zombie Voice Control Menu"
+	}
+	
+	"Menu_Title_Countdown"
+	{
+		"en"	"[ZR] Infection Countdown Control Menu"
+	}
+	
+	"Menu_Title_Ambient"
+	{
+		"en"	"[ZR] Ambience Control Menu"
+	}
+	
+	"Menu_Music_ZSound"
+	{
+		"#format"	"{1:T}"
+		
+		"en"	"Zombie Volume: {1}"
+	}
+	
+	"Menu_AdjustDesc_ZSound"
+	{
+		"en"	"You are able to control the volume instead of stops\nType \"!zsound <0-100>\"\n or \"!zombie_volume <0-100>\" \n"
+	}
+
+	"Menu_Vol_ZSound"
+	{
+		"#format"	"{1:d}"
+
+		"en"	"Volume: {1}"
+	}
+
+	"Menu_Music_Countdown"
+	{
+		"#format"	"{1:T}"
+		
+		"en"	"Countdown: {1}"
+	}
+	
+	"Menu_AdjustDesc_Countdown"
+	{
+		"en"	"You are able to control the volume instead of stops\nType \"!zcount <0-100>\"\n or \"!countdown_volume <0-100>\" \n"
+	}
+
+	"Menu_Vol_Countdown"
+	{
+		"#format"	"{1:d}"
+
+		"en"	"Volume: {1}"
+	}
+	
+	"Menu_Music_Ambient"
+	{
+		"#format"	"{1:T}"
+		
+		"en"	"Ambient: {1}"
+	}
+	
+	"Menu_AdjustDesc_Ambient"
+	{
+		"en"	"You are able to control the volume instead of stops\nType \"!zambient <0-100>\"\n or \"!ambient_volume <0-100>\" \n"
+	}
+
+	"Menu_Vol_Ambient"
+	{
+		"#format"	"{1:d}"
+
+		"en"	"Volume: {1}"
+	}
+
+	"Enabled"
+	{
+		"en"	"Enabled"
+	}
+
+	"Disabled"
+	{
+		"en"	"Disabled"
+	}
+
+	"Text_ZSoundEnable"
+	{
+		"en"	"Zombie Voice @lgreenEnabled@default."
+	}
+
+	"Text_ZSoundDisable"
+	{
+		"en"	"Zombie Voice @lgreenDisabled@default."
+	}
+	
+	"Text_CountdownEnable"
+	{
+		"en"	"Infection Countdown Sound @lgreenEnabled@default."
+	}
+
+	"Text_CountdownDisable"
+	{
+		"en"	"Infection Countdown Sound @lgreenDisabled@default."
+	}
+	
+	"Text_AmbientEnable"
+	{
+		"en"	"Ambient Sound @lgreenEnabled@default."
+	}
+
+	"Text_AmbientDisable"
+	{
+		"en"	"Ambient Sound @lgreenDisabled@default."
+	}
+
+	"Text_ZSoundVolume"
+	{
+		"#format"	"{1:d}"
+
+		"en"	"Zombie Voice @lgreenEnabled@default. Volume: @lgreen{1}"
+	}
+	
+	"Text_CountdownVolume"
+	{
+		"#format"	"{1:d}"
+
+		"en"	"Infection Countdown Sound @lgreenEnabled@default. Volume: @lgreen{1}"
+	}
+	
+	"Text_AmbientVolume"
+	{
+		"#format"	"{1:d}"
+
+		"en"	"Ambient Sound @lgreenEnabled@default. Volume: @lgreen{1}"
+	}
+}

@@ -1,0 +1,15 @@
+"Games"
+{
+	"csgo"
+	{
+		"Offsets"
+		{
+			"SetModel"
+			{
+				"windows"	"26"
+				"linux"		"27"
+				"mac"		"27"
+			}
+		}
+	}
+}

@@ -1,0 +1,13 @@
+"Games"
+{
+	"csgo"
+	{
+		"Offsets"
+		{
+			"m_LastHitGroup"
+			{
+				"windows"	"1820"
+			}
+		}
+	}
+}
