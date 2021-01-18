@@ -594,6 +594,10 @@ stock bool:RestrictIsTypeUniform(bool:restricted, index)
  */
 public Action:RestrictCanUse(client, weapon)
 {
+    if (g_allweapons[client])
+    {
+        return Plugin_Continue;
+    }
     // WARNING: This function is called _frequently_. Every game tick per
     //          player, I think. Make sure any code here is optimized.
 

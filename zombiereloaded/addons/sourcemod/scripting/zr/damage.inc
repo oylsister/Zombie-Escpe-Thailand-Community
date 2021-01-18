@@ -317,8 +317,13 @@ public Action DamageOnTakeDamage(int client, int &attacker, int &inflictor, floa
         // knife. But only do this when immunity mode is disabled.
         if (ClassGetImmunityMode(client) == Immunity_None)
         {
-            new health = GetClientHealth(client);
-            SetEntityHealth(client, health + RoundToNearest(damage));
+            if(!g_allweapons[attackerzombie])
+            {   
+		new health = GetClientHealth(client);
+		SetEntityHealth(client, health + RoundToNearest(damage));
+		//	if(GetEntProp(client, Prop_Data, "m_iMaxHealth") < health + RoundToNearest(damage))
+		//	SetEntProp(client, Prop_Data, "m_iMaxHealth", health + RoundToNearest(damage));
+	    }
 
             // Allow damage.
             return Plugin_Continue;

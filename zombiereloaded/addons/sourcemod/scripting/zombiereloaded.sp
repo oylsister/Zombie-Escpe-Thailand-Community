@@ -38,7 +38,9 @@
 
 #include <sdkhooks>
 
-#define VERSION "3.1 ???"
+#define VERSION "3.1"
+
+new bool:g_allweapons[MAXPLAYERS + 1];
 
 // Comment this line to exclude version info command. Enable this if you have
 // the repository and HG installed (Mercurial or TortoiseHG).
@@ -316,6 +318,8 @@ public OnClientConnected(client)
  */
 public OnClientPutInServer(client)
 {
+    g_allweapons[client] = false;
+  
     // Forward event to modules.
     ClassClientInit(client);
     OverlaysClientInit(client);
