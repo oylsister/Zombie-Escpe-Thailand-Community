@@ -36,6 +36,9 @@
 #include <zombiereloaded>
 #undef INCLUDED_BY_ZOMBIERELOADED
 
+#undef REQUIRE_EXTENSIONS
+#include <hitboxchanger>
+
 #include <sdkhooks>
 
 #define VERSION "3.1"
@@ -143,6 +146,7 @@ public APLRes:AskPluginLoad2(Handle:myself, bool:late, String:error[], err_max)
 
     // Register library
     RegPluginLibrary("zombiereloaded");
+    MarkNativeAsOptional("SetNumHitboxes");
 
     g_bLate = late;
 

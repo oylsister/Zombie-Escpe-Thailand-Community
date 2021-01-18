@@ -258,12 +258,15 @@ public ModelsOnConfigReload(ConfigFile:config)
 ModelsPrecache()
 {
     decl String:file[PLATFORM_MAX_PATH];
+    new bool:hitboxchangerLoaded = (GetFeatureStatus(FeatureType_Native, "SetNumHitboxes") == FeatureStatus_Available); // check if we have hitboxchanger extension running
 
     // Loop through all models, build full path and cache them.
     for (new model = 0; model < ModelCount; model++)
     {
         ModelsGetFullPath(model, file, sizeof(file));
-        PrecacheModel(file);
+	new modelIndex = PrecacheModel(file);
+	if(hitboxchangerLoaded && (modelIndex != 0) && (ModelData[model][Model_Team] == ModelTeam_Humans))
+	    SetNumHitboxes(modelIndex, -1);
     }
 }
 
