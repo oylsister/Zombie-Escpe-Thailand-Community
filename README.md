@@ -1,1 +1,1 @@
-# sm-zombiereloaded-3.1
+# Zombie Escape Thailand Community
