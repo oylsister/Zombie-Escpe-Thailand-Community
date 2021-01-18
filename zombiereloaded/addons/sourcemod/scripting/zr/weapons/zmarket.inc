@@ -1122,39 +1122,22 @@ stock bool:ZMarketEquip(client, const String:weapon[], bool:rebuy = false)
     }
     else if (!rebuy)
     {
-        // Get ammo type and stop if it's invalid.
-        decl String:weaponammo[WEAPONS_MAX_LENGTH];
-        WeaponsGetAmmoType(weaponindex, weaponammo, sizeof(weaponammo));
-        if (!weaponammo[0])
+        if (!weaponentity[0])
         {
             return false;
         }
-
-        // Prevent exploit by refilling ammo by re-buying weapon.
-        // Current clip amounts are stored, ammo is refilled, and then clips are reset.
-
-        new prim_clip;
-        new sec_clip;
-
-        if (weapons[Slot_Primary] > 0)
-        {
-            prim_clip = WeaponAmmoGetAmmo(weapons[Slot_Primary], true);
-        }
-        if (weapons[Slot_Secondary] > 0)
-        {
-            sec_clip = WeaponAmmoGetAmmo(weapons[Slot_Secondary], true);
-        }
-
-        GivePlayerItem(client, weaponammo);
-
-        if (weapons[Slot_Primary] > 0)
-        {
-            WeaponAmmoSetAmmo(weapons[Slot_Primary], true, prim_clip);
-        }
-        if (weapons[Slot_Secondary] > 0)
-        {
-            WeaponAmmoSetAmmo(weapons[Slot_Secondary], true, sec_clip);
-        }
+	if (slot != Slot_Projectile && slot != Slot_NVGs)
+	{
+	    // If there is already a weapon in the slot, then force client to drop it.
+	    if (weapons[slot] > -1)
+	    {
+		// Force client to drop the weapon.
+		WeaponsForceClientDrop(client, weapons[slot]);
+	    }
+	}
+	// Give client the weapon.
+        GivePlayerItem(client, weaponentity);
+	TranslationPrintToChat(client, "Weapons zmarket purchase", weapondisplay);   
     }
 
     return true;
