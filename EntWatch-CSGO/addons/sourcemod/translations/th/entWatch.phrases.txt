@@ -2,35 +2,35 @@
 {
 	"welcome"
 	{
-		"th" 	"The current map is supported by this plugin."
+		"th" 	"แผนที่ปัจจุบันรับรองปลั๊กอิน Entwatch"
 	}
 	"use"
 	{
-		"th" 	"used"
+		"th" 	"ใช้"
 	}
 	"pickup"
 	{
-		"th" 	"has picked up"
+		"th" 	"ได้เก็บ"
 	}
 	"drop"
 	{
-		"th" 	"has dropped"
+		"th" 	"ได้ทิ้ง"
 	}
 	"death"
 	{
-		"th" 	"has died with"
+		"th" 	"ได้ตายพร้อมกับ"
 	}
 	"disconnect"
 	{
-		"th" 	"disconnected with"
+		"th" 	"ได้ออกพร้อมกับ"
 	}
 	"cookies loading"
 	{
-		"th" 	"Please wait. Your settings are still loading."
+		"th" 	"โปรดรอ ค่าตั่งค่าของคุณกำลังโหลดอยู่"
 	}
 	"status restricted"
 	{
-		"th" 	"You are currently restricted."
+		"th" 	"คุณ"
 	}
 	"status unrestricted"
 	{
@@ -38,15 +38,15 @@
 	}
 	"display enabled"
 	{
-		"th" 	"The hud is now enabled."
+		"th" 	"hud ถูกเปิดใช้งานอยู่"
 	}
 	"display disabled"
 	{
-		"th" 	"The hud is now disabled."
+		"th" 	"hud ถูกปิดใช้งานอยู่"
 	}
 	"hudpos"
 	{
-		"th" 	"hud position is saved."
+		"th" 	"ตำแหน่ง hud ได้บันทึกแล้ว" 
 	}
 	"hudpos_wrong"
 	{
@@ -54,7 +54,7 @@
 	}
 	"hudcolor"
 	{
-		"th" 	"hud color is saved."
+		"th" 	"สี hud ได้บันทึกแล้ว"
 	}
 	"hudcolor_wrong"
 	{
@@ -70,11 +70,11 @@
 	}
 	"entWatch Commands"
 	{
-		"th" 	"entWatch Commands"
+		"th" 	"คำสั่ง Entwatch"
 	}
 	"List Banned Clients"
 	{
-		"th" 	"List Banned Clients"
+		"th" 	"รายชื่อผู้ที่ถูกแบน"
 	}
 	"Ban a Client"
 	{
@@ -90,17 +90,17 @@
 	}
 	"Unban a Client"
 	{
-		"th" 	"Unban a Client"
+		"th" 	"ปลดแบนผู้เล่น"
 	}
 	"Banned Clients"
 	{
-		"th" 	"Banned Clients"
+		"th" 	"ผู้เล่นที่ถูกแบน "
 	}
 	"No Banned Clients"
 	{
-		"th" 	"No Banned Clients"
+		"th" 	"ไม่มีผู้เล่นที่ถูกแบน"
 	}
-	"No transferable items currently held"
+	"No transferable items current+ly held"
 	{
 		"th" 	"No transferable items currently held"
 	}
@@ -114,7 +114,7 @@
 	}
 	"Item is already picked up"
 	{
-		"th" 	"Item is already picked up"
+		"th" 	"ไอเท็มได้ถูกเก็บไปแล้ว"
 	}
 	"Transfer iTarget"
 	{
@@ -142,7 +142,7 @@
 	}
 	"tai to"
 	{
-		"th" 	"to"
+		"th" 	"ให้"
 	}
 	"Item is not valid anymore"
 	{
@@ -150,11 +150,11 @@
 	}
 	"The receivers team is not CT or TER"
 	{
-		"th" 	"The receivers team is not CT or TER"
+		"th" 	"ผูรับไม่ได้อยู่ฝั่ง Human หรือฝั่ง Zombie"
 	}
 	"give item"
 	{
-		"th" 	"give item"
+		"th" 	"ให้ ไอเท็ม"
 	}
 	"Item dont pickable"
 	{
@@ -166,51 +166,51 @@
 	}
 	"Temporary"
 	{
-		"th" 	"Temporary"
+		"th" 	"่ชั่วคราว"
 	}
 	"Minutes"
 	{
-		"th" 	"Minutes"
+		"th" 	"นาที"
 	}
 	"Hour"
 	{
-		"th" 	"Hour"
+		"th" 	"ชัวโมง"
 	}
 	"Day"
 	{
-		"th" 	"Day"
+		"th" 	"วัน"
 	}
 	"Week"
 	{
-		"th" 	"Week"
+		"th" 	"สัปดาห์"
 	}
 	"Month"
 	{
-		"th" 	"Month"
+		"th" 	"เดือน"
 	}
 	"Permanent"
 	{
-		"th" 	"Permanent"
+		"th" 	"ถาวร"
 	}
 	"Banned Client"
 	{
-		"th" 	"Banned Client"
+		"th" 	"แบนผู้เล่น"
 	}
 	"Duration"
 	{
-		"th" 	"Duration"
+		"th" 	"ระยะเวลา"
 	}
 	"Expires"
 	{
-		"th" 	"Expires"
+		"th" 	"หมดอายุ"
 	}
 	"Never"
 	{
-		"th" 	"Never"
+		"th" 	"ไม่เคย"
 	}
 	"On Map Change"
 	{
-		"th" 	"On Map Change"
+		"th" 	"ตอนเปลี่ยนแผนที่"
 	}
 	"Issued on"
 	{
@@ -222,7 +222,7 @@
 	}
 	"Unban"
 	{
-		"th" 	"Unban"
+		"th" 	"ปลดแบน"
 	}
 	"is temporarily restricted"
 	{
@@ -242,11 +242,11 @@
 	}
 	"cookies havent loaded yet"
 	{
-		"th" 	"s cookies havent loaded yet"
+		"th" 	"ค่าตั่งค่าของคุณไม่ได้ถูกโหลด"
 	}
 	"No players found"
 	{
-		"th" 	"No players found"
+		"th" 	"ไม่พบผู้เล่นดังกล่าว"
 	}
 	"Currently e-banned"
 	{
@@ -258,14 +258,14 @@
 	}
 	"Target is not valid"
 	{
-		"th" 	"Target is not valid"
+		"th" 	"เป้าหมายไม่ถูกต้อง"
 	}
 	"No one is currently holding that item"
 	{
-		"th" 	"No one is currently holding that item"
+		"th" 	"ไม่มีใครถือไอเท็มนั้น"
 	}
 	"Invalid item name"
 	{
-		"th" 	"Invalid item name"
+		"th" 	"ชื่อไอเท็มไม่ถูกต้อง"
 	}
 }
