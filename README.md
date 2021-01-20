@@ -4,6 +4,6 @@
 
 ## ปลั๊กอินปัจจุบัน
 1. Sourcemod Base ทั้งหมด (ครบ 100% แล้ว)
-  - https://www.sourcemod.net/
+- https://www.sourcemod.net/
 2. Zombie:Reloaded หรือปลั๊กอินโหมดซอมบี้พร้อมแปลไทย (87%)
-  - https://git.botox.bz/CSSZombieEscape/sm-zombiereloaded-3
+- https://git.botox.bz/CSSZombieEscape/sm-zombiereloaded-3
