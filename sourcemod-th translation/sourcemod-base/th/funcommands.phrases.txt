@@ -1,0 +1,179 @@
+"Phrases"
+{
+	"Burn player"
+	{
+		"th"			"เผาผู้เล่น"
+	}
+	
+	"FireBomb player"
+	{
+		"th"			"ระเบิดไฟใส่ผู้เล่น"
+	}
+	
+	"Freeze player"
+	{
+		"th"			"แช่แข็งผู้เล่น"
+	}
+	
+	"FreezeBomb player"
+	{
+		"th"			"ระเบิดแช่แข็งใส่ผู้เล่น"
+	}	
+	
+	"TimeBomb player"
+	{
+		"th"			"ระเบิดเวลาใส่ผู้เล่น"
+	}	
+	
+	"Beacon player"
+	{
+		"th"			"เปิดไฟสัญญาณ (Beacon) ให้กับผู้เล่น"
+	}
+	
+	"NoClip player"
+	{
+		"th"			"เปิดโหมดบิน (NoClip) ให้กับผู้เล่น"
+	}
+	
+	"Blind player"
+	{
+		"th"			"เปิดโหมด Blind ใส่ผู้เล่น"
+	}
+	
+	"Drug player"
+	{
+		"th"			"มอมใส่ผู้เล่น"
+	}
+	
+	"Gravity player"
+	{
+		"th"			"เปิดโหมด Gravity ใส่ผู้เล่น"
+	}
+	
+	"Blind amount"
+	{
+		"th"			"ค่า Blind เท่าไหร่"
+	}
+	
+	"Fully blind"
+	{
+		"th"			"เต็มที่"
+	}
+	
+	"Half blind"
+	{
+		"th"			"ครึ่งหนึ่ง"
+	}
+	
+	"No blind"
+	{
+		"th"			"ไม่มี"
+	}
+	
+	"Gravity amount"
+	{
+		"th"			"ค่า Gravity เท่าไหร่"
+	}
+	
+	"Gravity Very High"
+	{
+		"th"			"สูงมาก"
+	}
+	
+	"Gravity High"
+	{
+		"th"			"สูง"
+	}
+	
+	"Gravity Normal"
+	{
+		"th"			"ปกติ"
+	}
+	
+	"Gravity Low"
+	{
+		"th"			"ต่ำ"
+	}
+	
+	"Gravity Very Low"
+	{
+		"th"			"ต่ำมาก"
+	}
+	
+	"Set target on fire"
+	{
+		"#format"		"{1:t}"
+		"th"			"ได้ทำการเผา {1}"
+	}
+	
+	"Toggled FireBomb on target"
+	{
+		"#format"		"{1:t}"
+		"th"			"ตั้งระเบิดไฟใส่ {1}"
+	}	
+
+	"Froze target"
+	{
+		"#format"		"{1:t}"
+		"th"			"ได้ทำการแช่แข็ง {1}"
+	}
+	
+	"Unfrozen"
+	{
+		"th"			"คุณได้ถูกยกเลิกแช่แข็ง"
+	}
+	
+	"You will be unfrozen"
+	{
+		"#format"		"{1:d}"
+		"th"			"คุณจะถูกยกเลิกแช่แข็งใน {1} วินาที"
+	}
+	
+	"Toggled FreezeBomb on target"
+	{
+		"#format"		"{1:t}"
+		"th"			"ตั้งระเบิดแช่แข็งใส่ {1}"
+	}	
+	
+	"Toggled beacon on target"
+	{
+		"#format"		"{1:t}"
+		"th"			"เปิดไฟสัญญาณใส่ {1}"
+	}
+	
+	"Toggled TimeBomb on target"
+	{
+		"#format"		"{1:t}"
+		"th"			"ตั้งระเบิดเวลาใส่ {1}"
+	}
+
+	"Toggled noclip on target"
+	{
+		"#format"		"{1:t}"
+		"th"			"เปิดโหมดบินใส่{1}"
+	}
+	
+	"Toggled drug on target"
+	{
+		"#format"		"{1:t}"
+		"th"			"เปิดโหมดเมาใส่ {1}"
+	}	
+	
+	"Set blind on target"
+	{
+		"#format"		"{1:t}"
+		"th"			"เปิดโหมด Blind ใส่ {1}"
+	}
+	
+	"Set gravity on target"
+	{
+		"#format"		"{1:t}"
+		"th"			"ตั้งค่า Gravity ของ {1}"
+	}	
+	
+	"Till Explodes"
+	{
+		"#format"		"{1:s},{2:d}"
+		"th"			"{2} วินาทีก่อนที่ {1} จะระเบิด"
+	}
+}

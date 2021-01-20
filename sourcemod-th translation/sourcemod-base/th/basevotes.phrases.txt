@@ -1,0 +1,101 @@
+"Phrases"
+{
+	"Initiate Vote"
+	{
+		"#format"		"{1:s}"
+		"th"			"เริ่มการโหวต: {1}"
+	}
+	
+	"Initiated Vote Map"
+	{
+		"th"			"เริ่มการโหวตแผนที่"
+	}	
+	
+	"Initiated Vote Kick"
+	{
+		"#format"		"{1:s}"
+		"th"			"เริ่มการโหวตเตะผู้เล่น {1}"
+	}
+	
+	"Initiated Vote Ban"
+	{
+		"#format"		"{1:s}"
+		"th"			"เริ่มการโหวตแบนผู้เล่น {1}"
+	}
+	
+	"Map Vote"
+	{
+		"#format"		"{1:s}"
+		"th"			"โหวตแผนที่: {1}"
+	}
+
+	"Map Vote In Use"
+	{
+		"th"			"แอดมินคนอื่นกำลังโหวตอยู่"
+	}
+	
+	"Change Map To"
+	{
+		"#format"		"{1:s}"
+		"th"			"เปลี่ยนแผนที่เป็น {1}?"
+	}	
+
+	"Votekick Player"
+	{
+		"#format"		"{1:s}"
+		"th"			"เตะผู้เล่น {1}?"
+	}
+
+	"Voteban Player"
+	{
+		"#format"		"{1:s}"
+		"th"			"แบนผู้เล่น {1}?"
+	}
+	
+	"Vote Successful"
+	{
+		"#format"		"{1:d},{2:d}"
+		"th"			"การโหวตเสร็จสิ้น (ได้รับคะแนนจากผู้เล่น {1}%% จาก {2} โหวต)"
+	}	
+	
+	"Vote Failed"
+	{
+		"#format"		"{1:d},{2:d},{3:d}"
+		"th"			"การโหวตล้มเหลว ต้องการผูเล่นอีก {1}%% (ได้รับคะแนนจากผู้เล่น {2}%% จาก {3} โหวต)"
+	}	
+
+	"Vote End"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"ผลลัพท์คำตอบ {1} ได้รับจากผู้เล่น: {2}."
+	}
+	"Kick vote"
+	{
+		"th"			"โหวตเตะผู้เล่น"
+	}
+
+	"Ban vote"
+	{
+		"th"			"โหวตแบนผู้เล่น"
+	}
+
+	"Map vote"
+	{
+		"th"			"โหวตแผนที่"
+	}
+
+	"Confirm Vote"
+	{
+		"th"			"โหวต Confirm"
+	}
+	
+	"Please select a map"
+	{
+		"th"			"โปรดเลือกแผนที่"
+	}
+	
+	"Start the Vote"
+	{
+		"th"			"เริ่มการโหวต"
+	}
+}

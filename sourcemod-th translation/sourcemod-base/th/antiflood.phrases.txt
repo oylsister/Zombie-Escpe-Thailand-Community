@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"Flooding the server"
+	{
+		"th"			"อย่า flooding ในเซิร์ฟเวอร์"
+	}
+}

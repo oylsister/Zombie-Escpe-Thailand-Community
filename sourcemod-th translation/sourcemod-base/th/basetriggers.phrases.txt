@@ -1,0 +1,116 @@
+"Phrases"
+{
+	"Timeleft"
+	{
+		"th"		"เวลาของแผนที่เหลือ: "
+	}
+	
+	"Thetime"
+	{
+		"#format"		"{1:s}"	
+		"th"		"เวลาปัจจุบันของเซิร์ฟเวอร์ {1}"
+	}
+	
+	"Friendly Fire On"
+	{
+		"th"		"เปิดการยิงเพื่อน"
+	}
+	
+	"Friendly Fire Off"
+	{
+		"th"		"ปิดการยิงเพื่อน"
+	}
+	
+	"Current Map"
+	{
+		"#format"		"{1:s}"
+		"th"		"แผนที่ปัจจุบัน {1}"
+	}
+
+	"WinLimitAppend"
+	{
+		"th"		" หรือเปลี่ยนแผนที่หลังจากทีมชนะอีกหนึ่งรอบ"
+	}
+
+	"WinLimit"
+	{
+		"th"		"แผนที่จะถูกเปลี่ยนหลังจากทีมชนะอีกหนึ่งรอบ"
+	}
+
+	"MaxRoundsAppend"
+	{
+		"th"		"หรือเปลี่ยนแผนที่หลังจากการเล่นหนึ่งรอบ"
+	}
+
+	"MaxRounds"
+	{
+		"th"		"แผนที่จะถูกเปลี่ยนหลังจากการเล่นหนึ่งรอบ"
+	}
+
+	"FragLimitAppend"
+	{
+		"th"		", or change map after player reaches one frag"
+	}
+
+	"FragLimit"
+	{
+		"th"		"Map will change after a player reaches one frag"
+	}
+
+	"WinLimitAppendPlural"
+	{
+		"#format"		"{1:i}"
+		"th"		"หรือเปลี่ยนแผนที่หลังจากทีมชนะอีก {1} รอบ"
+	}
+
+	"WinLimitPlural"
+	{
+		"#format"		"{1:i}"
+		"th"		"แผนที่จะถูกเปลี่ยนหลังจากทีมชนะอีก {1} รอบ"
+	}
+
+	"MaxRoundsAppendPlural"
+	{
+		"#format"		"{1:i}"
+		"th"		"หรือเปลี่ยนแผนที่ในอีก {1} รอบ"
+	}
+
+	"MaxRoundsPlural"
+	{
+		"#format"		"{1:i}"
+		"th"		"แผนที่จะถูกเปลี่ยนในอีก {1} รอบ"
+	}
+
+	"FragLimitAppendPlural"
+	{
+		"#format"		"{1:i}"
+		"th"		", or change map after player reaches {1} frags"
+	}
+
+	"FragLimitPlural"
+	{
+		"#format"		"{1:i}"
+		"th"		"Map will change after a player reaches {1} frags"
+	}
+
+	"LastRound"
+	{
+		"th"		"นี้คือรอบสุดท้ายของแผนที่นี้!!"
+	}
+
+	"NoTimelimit"
+	{
+		"th"		"แผนที่นี้มีเวลาไม่จำกัด"
+	}
+
+	"Next Map"
+	{
+		"#format"		"{1:s}"
+		"th"		"แผนที่ต่อไป: {1}"
+	}
+
+	"Pending Vote"
+	{
+		"th"		"กำลังอยู่ในช่วงโหวต"
+	}
+}

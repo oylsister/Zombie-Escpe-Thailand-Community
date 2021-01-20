@@ -1,0 +1,22 @@
+"Phrases"
+{
+	"Admin Menu"
+	{
+		"th"			"คำสั่งของ Admin ทั่วไป"
+	}
+	
+	"Player Commands"
+	{
+		"th"			"คำสั่งของผู้เล่น"
+	}
+
+	"Server Commands"
+	{
+		"th"			"คำสั่งสำหรับเซิร์ฟเวอร์"
+	}
+
+	"Voting Commands"
+	{
+		"th"			"คำสั่งโหวต"
+	}
+}

@@ -1,0 +1,34 @@
+"Phrases"
+{
+	"SM help commands"
+	{
+		"th"			"SourceMod ตัวช่วย: ข้อมูลของ Command ต่างๆ"
+	}
+
+	"No description available"
+	{
+		"th"			"คำอธิบายไม่ได้ถูกระบุไว้"
+	}
+
+	"No commands available"
+	{
+		"th"			"ไม่มี Command ที่ใช้ได้"
+	}
+
+	"Type sm_help to see more"
+	{
+		"#format"		"{1:d}"
+		"th"			"พิพม์ sm_help {1} เพื่อดูคำสั่งเพิ่มเติม"
+	}
+
+	"Entries n - m in page k"
+	{
+		"#format"		"{1:d},{2:d},{3:d}"
+		"th"			"รายการ {1} - {2} ในหน้า {3}"
+	}
+
+	"No matching results found"
+	{
+		"th"			"ไม่พบเป้าหมายที่สอดคล้อง"
+	}
+}

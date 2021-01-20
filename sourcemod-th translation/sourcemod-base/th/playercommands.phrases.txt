@@ -1,0 +1,45 @@
+"Phrases"
+{
+	"Name changed"
+	{
+		"th"			"แอดมินได้เปลี่ยนชื่อคุณ"
+	}
+
+	"Renamed target"
+	{
+		"#format"		"{1:t}"
+		"th"			"เปลี่ยนชื่อ {1}"
+	}
+
+	"Rename player"
+	{
+		"th"			"เปลี่ยนชื่อผู้เล่น"
+	}
+	
+	"Slap player"
+	{
+		"th"			"ตีผู้เล่น"
+	}
+
+	"Slap damage"
+	{
+		"th"			"ดาเมจการตี"
+	}
+	
+	"Slay player"
+	{
+		"th"			"ฆ่าผู้เล่น"
+	}
+	
+	"Slapped target"
+	{
+		"#format"		"{1:t}"
+		"th"			"ตีผู้เล่น {1}"
+	}
+	
+	"Slayed target"
+	{
+		"#format"		"{1:t}"
+		"th"			"ฆ่าผู้เล่น {1}"
+	}
+}

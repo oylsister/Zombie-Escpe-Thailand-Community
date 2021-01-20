@@ -1,0 +1,154 @@
+"Phrases"
+{
+	"Unable to find cvar"
+	{
+		"#format"		"{1:s}"
+		"th"			"ไม่สามารถหา cvar: {1}"
+	}
+	
+	"No access to cvar"
+	{
+		"th"			"คุณไม่มีสิทธิ์เข้าถึง cvar นี้"
+	}
+	
+	"Value of cvar"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"ค่าของ cvar \"{1}\": \"{2}\""
+	}
+	
+	"Cvar changed"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"เปลี่ยน cvar \"{1}\" to \"{2}\""
+	}
+	
+	"Config not found"
+	{
+		"#format"		"{1:s}"
+		"th"			"ไฟล์ Config \"{1}\" ไม่เจอ"
+	}
+	
+	"Executed config"
+	{
+		"#format"		"{1:s}"
+		"th"			"ดำเนินการ config \"{1}\"."
+	}
+
+	"Permabanned player"
+	{
+		"#format"		"{1:s}"
+		"th"			"แบนผู้เล่น \"{1}\" อย่างถาวร"
+	}
+	
+	"Permabanned player reason"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"แบนผู้เล่น \"{1}\" อย่างถาวร (เหตุผล: {2})."
+	}
+	
+	"Banned player"
+	{
+		"#format"		"{1:s},{2:d}"
+		"th"			"แบนผู้เล่น \"{1}\" เป็นเวลา {2} นาที"
+	}
+	
+	"Banned player reason"
+	{
+		"#format"		"{1:s},{2:d},{3:s}"
+		"th"			"แบนผู้เล่น \"{1}\" เป็นเวลา {2} นาที (เหตุผล: {3})"
+	}
+	
+	"Removed bans matching"
+	{
+		"#format"		"{1:s}"
+		"th"			"ลบแบนผู้เล่นตรงกับชื่อ: {1}"
+	}
+	
+	"Ban added"
+	{
+		"th"			"การแบนถูกเพิ่มเข้าไป"
+	}
+	
+	"Admin cache refreshed"
+	{
+		"th"			"ข้อมูลแอดมินถูกรีเฟรชใหม่"
+	}
+	
+	"Identify player"
+	{
+		"th"			"ระบุผู้เล่น"
+	}
+	
+	"Choose Map"
+	{
+		"th"			"เลือกแผนที่"
+	}
+	
+	"Exec CFG"
+	{
+		"th"			"Exec CFG"
+	}
+	
+	"Admin logged in as"
+	{
+		"#format"		"{1:s},{2:s},{3:s}"
+		"th"			"\"{1}\" ล็อกอินเข้ามาในฐานะ \"{2}\" ด้วยสิทธิ์: {3}"
+	}
+	
+	"Admin logged in anon"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"\"{1}\" มีสิทธิ์: {2}"
+	}
+	
+	"Player is not an admin"
+	{
+		"#format"		"{1:s}"
+		"th"			"\"{1}\" ไม่ใช่แอดมิน"
+	}
+	
+	"Player is an admin"
+	{
+		"#format"		"{1:s}"
+		"th"			"\"{1}\" เป็นแอดมิน"
+	}
+	
+	"Username"
+	{
+		"th"			"Username"
+	}
+	
+	"Kicked target"
+	{
+		"#format"		"{1:t}"
+		"th"			"เตะผู้เล่น {1}"
+	}
+
+	"Kicked target reason"
+	{
+		"#format"		"{1:t},{2:s}"
+		"th"			"เตะผู้เล่น {1} (เหตุผล: {2})"
+	}
+	
+	"Admin access"
+	{
+		"th"			"สิทธิ์แอดมิน"
+	}
+	
+	"Cvar is now protected"
+	{
+		"#format"		"{1:s}"
+		"th"			"Cvar {1} ถูกป้องกันไว้แล้ว"
+	}
+	
+	"Please select a map"
+	{
+		"th"			"โปรดเลือกแผนที่"
+	}
+	
+	"Choose Config"
+	{
+		"th"			"เลือก Config"
+	}
+}

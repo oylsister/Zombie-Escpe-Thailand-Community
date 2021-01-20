@@ -1,0 +1,109 @@
+"Phrases"
+{
+	"Initiated Vote Gravity"
+	{
+		"th"			"เริ่มทำการโหวตเปลี่ยนค่า Gravity"
+	}	
+	
+	"Initiated Vote Burn"
+	{
+		"#format"		"{1:s}"
+		"th"			"เริ่มทำการโหวตเผาผู้เล่น {1}."
+	}
+	
+	"Initiated Vote Slay"
+	{
+		"#format"		"{1:s}"
+		"th"			"เริ่มทำการโหวตฆ่าผู้เล่น {1}."
+	}
+	
+	"Initiated Vote Alltalk"
+	{
+		"th"			"เริ่มการโหวตเปิดคุยกับผู้เล่นทุกคน"
+	}
+	
+	"Initiated Vote FF"
+	{
+		"th"			"เริ่มการโหวตเปิดยิงเพื่อน"
+	}	
+	
+	"Gravity Vote"
+	{
+		"#format"		"{1:s}"
+		"th"			"โหวต Gravity: {1}"
+	}
+	
+	"Change Gravity To"
+	{
+		"#format"		"{1:s}"
+		"th"			"เปลี่ยนค่า Gravity เป็น {1} หรือไม่?"
+	}	
+
+	"Voteburn player"
+	{
+		"#format"		"{1:s}"
+		"th"			"เผาผู้เล่น {1} หรือไม่?"
+	}
+	
+	"Voteslay Player"
+	{
+		"#format"		"{1:s}"
+		"th"			"ฆ่าผู้เล่น {1} หรือไม่?"
+	}
+	
+	"Votealltalk Off"
+	{
+		"#format"		"{1:s}"
+		"th"			"ปิดการพูดคุยข้ามทีม? {1}"
+	}
+	
+	"Votealltalk On"
+	{
+		"#format"		"{1:s}"
+		"th"			"เปิดการพูดคุยข้ามทีม? {1}"
+	}	
+	
+	"Voteff Off"
+	{
+		"#format"		"{1:s}"
+		"th"			"ปิดการยิงเพื่อน? {1}"
+	}
+	
+	"Voteff On"
+	{
+		"#format"		"{1:s}"
+		"th"			"เปิดการยิงเพื่อน? {1}"
+	}
+	
+	"Gravity vote"
+	{
+		"th"			"โหวต Gravity"
+	}
+	
+	"Vote FF"
+	{
+		"th"			"โหวตเปิดการยิงเพื่อน"
+	}
+	
+	"Burn vote"
+	{
+		"th"			"โหวตเผาผู้เล่น"
+	}
+	
+	"Alltalk vote"
+	{
+		"th"			"โหวตพุดคุยข้ามทีม"
+	}
+	
+	"Slay vote"
+	{
+		"th"			"โหวตฆ่าผู้เล่น"
+	}
+
+	"Slayed player"
+	{
+		"#format"		"{1:s}"
+		"th"			"ฆ่าผู้เล่น '{1}'"
+	}
+}
+

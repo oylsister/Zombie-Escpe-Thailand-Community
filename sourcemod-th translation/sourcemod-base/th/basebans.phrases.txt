@@ -1,0 +1,68 @@
+"Phrases"
+{
+	"Ban player"
+	{
+		"th"			"แบนผู้เล่น"
+	}
+
+	"Ban reason"
+	{
+		"th"			"เหตุผลการแบน"
+	}
+	
+	"Permabanned player"
+	{
+		"#format"		"{1:s}"
+		"th"			"แบนผู้เล่น \"{1}\" อย่างถาวร."
+	}
+	
+	"Permabanned player reason"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"แบนผู้เล่น \"{1}\" อย่างถาวร (เหตุผล: {2})."
+	}
+	
+	"Banned player"
+	{
+		"#format"		"{1:s},{2:d}"
+		"th"			"แบนผู้เล่น \"{1}\" เป็นเวลา {2} นาที."
+	}
+	
+	"Banned player reason"
+	{
+		"#format"		"{1:s},{2:d},{3:s}"
+		"th"			"แบนผู้เล่น \"{1}\" เป็นเวลา {2} นาที (เหตุผล: {3})."
+	}
+	
+	"Removed bans matching"
+	{
+		"#format"		"{1:s}"
+		"th"			"ลบแบน สอดคล้องกับ: {1}"
+	}
+	
+	"Ban added"
+	{
+		"th"			"มีการแบนได้ถูกเพิ่มเข้าไป"
+	}
+	
+	"Cannot ban that IP"
+	{
+		"th"			"ไม่สามารถแบนผู้เล่น IP Address นี้ได้"
+	}
+	
+	"Custom ban reason explanation"
+	{
+		"#format"		"{1:s}"
+		"th"			"ระบุเหตุผลในการแบนบนแชท หรือใช้ {1} เพื่อยกเลิก"
+	}
+	
+	"AbortBan applied successfully"
+	{
+		"th"			"การแบนถูกยกเลิก"
+	}
+	
+	"AbortBan not waiting for custom reason"
+	{
+		"th"			"ไม่มีการรอระบุเหตุผลในการแบนเข้ามา ไม่มีการแบนถูกยกเลิก"
+	}
+}

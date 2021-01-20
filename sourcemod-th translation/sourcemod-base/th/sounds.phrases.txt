@@ -1,0 +1,8 @@
+"Phrases"
+{
+	"Played sound to target"
+	{
+		"#format"		"{1:t}"
+		"th"			"เล่นเสียงเป็น {1}"
+	}
+}

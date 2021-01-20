@@ -1,0 +1,80 @@
+"Phrases"
+{
+	"Invalid authtype"
+	{
+		"th"		"ประเภทการยืนยันต้องเป็นแบบ 'steam' หรือ 'name' หรือ 'ip' เท่านั้น"
+	}
+
+	"Invalid immunity"
+	{
+		"th"		"ค่า Immunity ต้องเป็นเลขจำนวนเต็มบวก"
+	}
+
+	"SQL Admin already exists"
+	{
+		"th"		"ผู้ดูแลหรือแอดมินดังกล่าวมีอยู่ในฐานข้อมูลอยู่แล้ว"
+	}
+
+	"SQL Admin added"
+	{
+		"th"		"ผู้ดูแลหรือแอดมินถูกเพิ่มเข้าไปใน Database ได้สำเร็จ"
+	}
+	
+	"SQL Admin deleted"
+	{
+		"th"		"ผู้ดูแลหรือแอดมินถูกลบออกจาก Database ได้สำเร็จ"
+	}
+	
+	"SQL Admin not found"
+	{
+		"th"		"ไม่มีผู้ดูแลหรือแอดมินดังกล่าวอยู่ในฐานข้อมูล"
+	}
+	
+	"SQL Group already exists"
+	{
+		"th"		"กลุ่มนี้มีชื่อซ้ำกับกลุ่มที่ตั้งไว้ก่อนหน้านี้"
+	}
+	
+	"SQL Group added"
+	{
+		"th"		"กลุ่มถูกเพิ่มเข้าไปใน Database ได้สำเร็จ"
+	}
+	
+	"SQL Group deleted"
+	{
+		"th"		"กลุ่มถูกลบออกจาก Database ได้สำเร็จ"
+	}
+	
+	"SQL Group not found"
+	{
+		"th"		"ไม่มีชื่อกลุ่มดังกล่าวอยู่ในฐานข้อมูล"
+	}
+	
+	"SQL Admin groups reset"
+	{
+		"th"		"กลุ่มผู้ดูแลและกลุ่มอื่นๆถูกรีเซ็ตอย่างสำเร็จ"
+	}
+	
+	"SQL Group X not found"
+	{
+		"#format"	"{1:s}"
+		"th"		"ไม่เจอกลุ่ม: \"{1}\""
+	}
+	
+	"SQL Group X failed to bind"
+	{
+		"#format"	"{1:s}"
+		"th"		"ผูกกลุ่ม \"{1}\" ไม่สำเร็จ"
+	}
+	
+	"Added group to user"
+	{
+		"th"		"เพิ่มผู้ดูแลเข้าไปในกลุ่มได้สำเร็จ"
+	}
+	
+	"Added groups to user"
+	{
+		"#format"	"{1:d}"
+		"th"		"เพิ่มผู้ดูแลเข้าไปในกลุ่ม {1} ได้สำเร็จ"
+	}
+}

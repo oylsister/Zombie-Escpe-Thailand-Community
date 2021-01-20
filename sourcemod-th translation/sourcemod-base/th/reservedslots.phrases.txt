@@ -1,0 +1,7 @@
+"Phrases"
+{
+	"Slot reserved"
+	{
+		"en"			"ถูกเด้งออกเนื่องจาก Slot Reservation"
+	}
+}

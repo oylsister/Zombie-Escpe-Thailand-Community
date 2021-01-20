@@ -1,0 +1,43 @@
+"Phrases"
+{
+	"Cookie List"
+	{
+		"th"			"ลิสต์ Sourcemod Cookie"
+	}
+	"Printing Cookie List"
+	{
+		"th"			"ได้ทำการโหลดรายชื่อลิสต์คุกกี้ลงในข้อความคอนโซล"
+	}
+	"Cookie not Found"
+	{
+		"#format"		"{1:s}"
+		"th"			"ไม่สามารถหา Cookie \"{1}\" เจอ"
+	}
+	"Cookie Value"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"ค่าของ {1} คือ {2}"
+	}
+	"Protected Cookie"
+	{
+		"#format"		"{1:s}"
+		"th"			"ไม่สามารถเปลี่ยนค่าได้ เนื่องจาก Cookie \"{1}\" ได้รับการป้องกันไว้อยู่"
+	}
+	"Cookie Changed Value"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"เปลี่ยนค่าของ Cookie จาก \"{1}\" ไปเป็น \"{2}\""
+	}
+	"No Console"
+	{
+		"th"			"ไม่สามารถแสดงหน้าตั้งค่าบนคอนโซลได้"
+	}
+	"Choose Option"
+	{
+		"th"			"เลือกตัวเลือก"
+	}
+	"Client Settings"
+	{
+		"th"			"การตั้งค่าของผู้เล่น"
+	}	
+}

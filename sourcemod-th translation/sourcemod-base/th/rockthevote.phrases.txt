@@ -1,0 +1,75 @@
+"Phrases"
+{
+	"Rock The Vote"
+	{
+		"th"			"Rock The Vote:"
+	}
+	
+	"RTV Not Allowed"
+	{
+		"th"			"Rock the Vote ยังไม่เปิดตอนนี้"
+	}
+	
+	"RTV Started"
+	{
+		"th"			"Rock the Vote ได้เริ่มขึ้นแล้ว"
+	}
+
+	"RTV Ended"
+	{
+		"th"			"RTV จบไปแล้ว คุณไม่สามารถเลือกแผนที่เพิ่มหรือ เริ่ม RTV ได้อีกครั้ง"
+
+	}
+	
+	"Already Voted"
+	{
+ 		"#format"		"{1:d},{2:d}"
+	 	"th"			"คุณได้โหวตให้เริ่ม Rock the Vote ไปแล้ว ({1} โหวตแล้ว ต้องการ {2} โหวต)"
+	}
+	
+	"Minimal Players Not Met"
+	{
+		"th"			"จำนวนผู้เล่นไม่ถึงเกณฑ์ที่กำหนดไว้"
+	}
+	
+	
+	"RTV Requested"
+	{
+		"#format"		"{1:s},{2:d},{3:d}"
+		"th"			"{1} ต้องการเริ่ม rock the vote. ({2} โหวตแล้ว ต้องการ {3} โหวต)"
+	}
+	
+	"RTV Vote Ready"
+	{
+		"th"			"Rocking the Vote!"
+
+	}
+	
+	"Don't Change"
+	{
+		"th"			"ดำเนินแผนที่เดิมต่อ"
+	}
+	
+	
+	"Selected Map"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"{1} ได้เลือก {2}"
+	}
+	
+	"No Votes"
+	{
+		"th"			"ไม่มีการโหวตใน Rock the Vote ดำเนินแผนที่เดิมต่อไป"
+	}
+	
+	"Current Map Stays"
+	{
+		"th"			"Rock the Vote เสร็จสิ้นแล้ว! ดำเนินแผนที่เดิมต่อไป!"
+	}
+	
+	"Changing Maps"
+	{
+		"#format"		"{1:s}"
+		"th"			"Rock the Vote เสร็จสิ้นแล้ว! เปลี่ยนแผนที่เป็น {1}!"
+	}
+}

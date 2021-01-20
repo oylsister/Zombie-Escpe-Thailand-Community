@@ -1,0 +1,263 @@
+"Phrases"
+{
+	"Yes"
+	{
+		"th"			"ใช่"
+	}
+	
+	"No"
+	{
+		"th"			"ไม่"
+	}
+
+	"No matching client"
+	{
+		"th"			"ไม่พบผู้เล่นชื่อนี้"
+	}
+	
+	"No matching clients"
+	{
+		"th"			"ไม่พบผู้เล่นชื่อนี้"
+	}
+	
+	"More than one client matches"
+	{
+		"#format"		"{1:s}"
+		"th"			"มีมากกว่าหนึ่งผู้เล่นที่มีชื่อเหมือนกับ \"{1}\""
+	}
+	
+	"More than one client matched"
+	{
+		"th"			"มีมากกว่าหนึ่งผู้เล่นที่มีชื่อเหมือนกัน"
+	}
+	
+	"Player no longer available"
+	{
+		"th"			"ผู้เล่นที่คุณตามหาไม่ได้อยู่ในนี้แล้ว"
+	}
+	
+	"Kick player"
+	{
+		"th"			"เตะผู้เล่น"
+	}
+	
+	"Kicked by admin"
+	{
+		"th"			"ถูกเตะออกโดยผู้ดูแล"
+	}
+	
+	"Changing map"
+	{
+		"#format"		"{1:s}"
+		"th"			"เปลี่ยนแผนที่เป็น {1}..."
+	}
+	
+	"Map was not found"
+	{
+		"#format"		"{1:s}"
+		"th"			"ไม่พบแผนที่ {1} ไม่เจอ"
+	}
+	
+	"Unable to target"
+	{
+		"th"			"ไม่สามารถเลือกผู้เล่นนี้ได้"
+	}
+	
+	"Name"
+	{
+		"th"			"ชื่อ"
+	}
+	
+	"Access"
+	{
+		"th"			"การเข้าถึง"
+	}
+	
+	"See console for output"
+	{
+		"th"			"ดูที่ข้อความบน Console"
+	}
+	
+	"Cannot target bot"
+	{
+		"th"			"ไม่สามารถใช้คำสั่งนี้กับบอท"
+	}
+	
+	"Unable to find cvar"
+	{
+		"#format"		"{1:s}"
+		"th"			"ไม่สามารถหา cvar: {1}"
+	}
+	
+	"No access to cvar"
+	{
+		"th"			"คุณไม่ได้รับอนุญาตในการเข้าถึง cvar นี้"
+	}
+	
+	"Value of cvar"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"ค่าของ cvar \"{1}\": \"{2}\""
+	}
+	
+	"Cvar changed"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"ค่าของ cvar เปลี่ยนจาก \"{1}\" เป็น \"{2}\"."
+	}
+	
+	"Config not found"
+	{
+		"#format"		"{1:s}"
+		"th"			"ไม่พบไฟล์ตั้งค่าของ \"{1}\""
+	}
+	
+	"Executed config"
+	{
+		"#format"		"{1:s}"
+		"th"			"เริ่มการทำงานตั้งค่าจากไฟล์ \"{1}\""
+	}
+	
+	"Admin cache refreshed"
+	{
+		"th"			"ฐานข้อมูลของผู้ดูแลถูกอัพเดท"
+	}	
+	
+	"Invalid Amount"
+	{
+		"th"			"จำนวนไม่ถูกต้อง"
+	}
+
+	"Cannot be performed on dead"
+	{
+		"#format"		"{1:s}"
+		"th"			"ไม่สามารถใช้กับผู้เล่นที่ตายอยู่ \"{1}\""
+	}
+	
+	"Player has since died"
+	{
+		"th"			"ไม่สามารถใช้คำสั่งนี้ได้เพราะผู้เเล่นตายอยู่"
+	}
+	
+	"Vote in Progress"
+	{
+		"th"			"อยู่ในขั้นตอนการโหวตแล้ว"
+	}
+	
+	"Vote Not In Progress"
+	{
+		"th"			"ไม่ได้อยู่ในขั้นตอนการโหวตในขณะนี้"
+	}
+	
+	"Cancelled Vote"
+	{
+		"th"			"การโหวตถูกยกเลิก"
+	}
+
+	"Cancel vote"
+	{
+		"th"			"ยกเลิกการโหวต"
+	}
+	
+	"Vote Select"
+	{
+		"#format"		"{1:s},{2:s}"
+		"th"			"{1} ได้ทำการเลือก {2}."
+	}	
+	
+	"No Votes Cast"
+	{
+		"th"			"ไม่มีการโหวตคะแนน"
+	}	
+	
+	"Vote Delay Minutes"
+	{
+		"#format"		"{1:d}"
+		"th"			"กรุณารออีก {1} นาที ก่อนที่จะเริ่มทำการโหวตในรอบต่อไป"
+	}
+	
+	"Vote Delay Seconds"
+	{
+		"#format"		"{1:d}"
+		"th"			"กรุณารออีก {1} วินาที ก่อนที่จะเริ่มทำการโหวตในรอบต่อไป"
+	}
+
+	"Could not connect to database"
+	{
+		"th"			"ไม่สามารถเชื่อมต่อถึงฐานข้อมูล (Database) ได้"
+	}
+
+	"Failed to query database"
+	{
+		"th"			"ไม่สามารถสืบค้นฐานข้อมูล (Database) ได้"
+	}
+
+	"Invalid SteamID specified"
+	{
+		"th"			"คุณระบุ Steam ID ไม่ถูกต้อง (ต้องเริ่มด้วย 'STEAM_')"
+	}
+	
+	"Reload admins"
+	{
+		"th"			"รีโหลดแอดมินใหม่"
+	}
+
+	"Command is in-game only"
+	{
+		"th"			"คำสั่งนี้สามารถใช้ได้เฉพาะในเกมส์"
+	}
+	
+	"Target must be dead"
+	{
+		"th"			"คำสั่งนี้สามารถใช้ได้เฉพาะกับผู้เล่นที่ตายแล้ว"
+	}
+	
+	"Target must be alive"
+	{
+		"th"			"คำสั่งนี้สามารถใช้ได้เฉพาะกับผู้เล่นที่ยังมีชีวิต"
+	}
+	
+	"Target is not in game"
+	{
+		"th"			"ผู้เล่นคนดั่งกล่าวยังไม่เชื่อมต่อเสร็จสมบูรณ์"
+	}
+	
+	"Cannot participate in vote"
+	{
+		"th"			"คุณไม่สามารถเข้าร่วมการโหวตนี้ได้"
+	}
+	
+	"Cannot change vote"
+	{
+		"th"			"คุณไม่สามารถเปลี่ยนตัวเลือกสำหรับการโหวตครั้งนี้ได้"
+	}
+	"On"
+	{
+		"th"			"เปิด"
+	}
+	"Off"
+	{
+		"th"			"ปิด"
+	}
+	
+	"Say all"
+	{
+		"#format"		"{1:s}"
+		"th"			"(ทุกคน) {1}"
+	}
+	"Chat admins"
+	{
+		"#format"		"{1:N}"
+		"th"			"(แอดมิน) {1}"
+	}
+	"Chat to admins"
+	{
+		"#format"		"{1:N}"
+		"th"			"(ถึงแอดมิน) {1}"
+	}
+	"Private say to"
+	{
+		"#format"		"{1:N},{2:N}"
+		"th"			"(ส่วนตัวถึง {1}) {2}"
+	}
+}
