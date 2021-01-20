@@ -2,67 +2,60 @@
 {
 	"Cookie_Menu"
 	{
-		"th"	"Map Music"
-		"ru"	"Музыка на карте"
+		"th"	"Map Music-ตั่งค่าความดังเพลงของแผนที่"
 	}
 
 	"Text_MapMusicEnable"
 	{
-		"th"	"Map music is {lightgreen}Enabled{default}."
-		"ru"	"Музыка на карте {lightgreen}Включена{default}."
+		"th"	"เพลงของแผนที่ {lightgreen}ถูกเปิดอยู่{default}"
+		
 	}
 
 	"Text_MapMusicDisable"
 	{
-		"th"	"Map music is {red}Disabled{default}."
-		"ru"	"Музыка на карте {red}Отключена{default}."
+		"th"	"เพลงของแผนที่ {red}ถูกปิดอยู่{default}"
 	}
 
 	"Text_MapMusicVolume"
 	{
 		"#format"	"{1:d}"
 
-		"th"	"Map music is {lightgreen}Enabled{default}. Volume: {lightgreen}{1}"
-		"ru"	"Музыка на карте {lightgreen}Включена{default}. Громкость: {lightgreen}{1}"
+		"th"	"เพลงของแผนที่ {lightgreen}ถูกเปิดอยู่{default}. ระดับเสียง: {lightgreen}{1}"
+		
 	}
 
 	"Enabled"
 	{
-		"th"	"Enabled"
-		"ru"	"Включена"
+		"th"	"เปิดอยู่"
 	}
 
 	"Disabled"
 	{
-		"th"	"Disabled"
-		"ru"	"Отключена"
+		"th"	"ปิดอยู่"
 	}
 
 	"Menu_Title"
 	{
-		"th"	"[MapMusic] Sound Control Menu"
-		"ru"	"[MapMusic] Меню управления музыкой"
+		"th"	"[MapMusic] เมนูตั้งค่าความดังเพลงของแผนที่"
+	
 	}
 
 	"Menu_AdjustDesc"
 	{
-		"th"	"You can use volume control instead of fully stopping\nFor adjust volume is \"!music <0-100>\""
-		"ru"	"Вы можете приглушить или выключить музыку на карте\nИспользуйте \"!music <0-100>\""
+		"th"	"คุณสามารถปรับเสียงได้ด้วยการใช้คำสั่ง\n โดยการพิมพ์ \"!music <0-100>\""
 	}
 
 	"Menu_Music"
 	{
 		"#format"	"{1:T}"
 
-		"th"	"Music: {1}"
-		"ru"	"Музыка: {1}"
+		"th"	"เพลงแผนที่: {1}"
 	}
 
 	"Menu_Vol"
 	{
 		"#format"	"{1:d}"
 
-		"th"	"Volume: {1}"
-		"ru"	"Громкость: {1}"
+		"th"	"ระดับเสียง: {1}"
 	}
 }
