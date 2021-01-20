@@ -226,7 +226,7 @@
 
 		// ZMarket (module)
 
-		"zmarketname"		"CZ75-Auto"
+		"zmarketname"		"CZ75"
 		"zmarketprice"		"500"
                 "zmarketcommand"	"sm_cz,sm_cz75"
 	}
@@ -313,7 +313,7 @@
 
 		// ZMarket (module)
 
-		"zmarketname"		"R8-Revolver"
+		"zmarketname"		"R8 Revolver"
 		"zmarketprice"		"650"
                 "zmarketcommand"	"sm_r8,sm_revolver"
 	}
@@ -458,7 +458,7 @@
 
 		// ZMarket (module)
 
-		"zmarketname"		"Mac-10"
+		"zmarketname"		"Mac10"
 		"zmarketprice"		"1050"
 		"zmarketcommand"	"sm_mac10"
 	}
@@ -516,7 +516,7 @@
 
 		// ZMarket (module)
 
-		"zmarketname"		"PP-Bizon"
+		"zmarketname"		"Bizon"
 		"zmarketprice"		"2500"
 		"zmarketcommand"	"sm_bizon,sm_pp"
 	}
@@ -574,7 +574,7 @@
 
 		// ZMarket (module)
 
-		"zmarketname"		"MP5-SD"
+		"zmarketname"		"MP5SD"
 		"zmarketprice"		"1500"
 		"zmarketcommand"	"sm_mp5"
 	}
@@ -662,7 +662,7 @@
 
 		// ZMarket (module)
 
-		"zmarketname"		"Galil"
+		"zmarketname"		"Galil AR"
 		"zmarketprice"		"2000"
 		"zmarketcommand"	"sm_galil"
 	}
@@ -1073,7 +1073,7 @@
 
 		// Knockback (module)
 
-		"knockback"		"1.0"
+		"knockback"		"0"
 
 		// ZMarket (module)
 
@@ -1093,7 +1093,7 @@
 
 		// Restrict (core)
 
-		"restrictdefault"	"yes"
+		"restrictdefault"	"no"
 		"toggleable"		"yes"
 
 		// ZMarket (module)
@@ -1101,7 +1101,7 @@
 		"zmarketname"		"Molotov"
 		"zmarketprice"		"850"
 		"zmarketpurchasemax"	"1"
-		"zmarketcommand"	"sm_molotov"
+		"zmarketcommand"	"sm_molotov,sm_moly,sm_mol"
 	}
 
 	"Decoy"
@@ -1121,8 +1121,7 @@
 
 		"zmarketname"		"Decoy"
 		"zmarketprice"		"200"
-		"zmarketpurchasemax"	"1"
-                "zmarketcommand"	"sm_decoy"
+		"zmarketpurchasemax"	"0"
 	}
 
 	"Flashbang"

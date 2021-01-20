@@ -1,0 +1,1166 @@
+﻿"Phrases"
+{
+	// ===========================
+	// General (base)
+	// ===========================
+
+	"General round objective"
+	{
+		"th"		"นี้คือโหมดเกมส์ @greenมนุษย์ @lgreenปะทะ @greenซอมบี้ @defaultเป้าหมายของซอมบี้คือการแพร่เชื้อใส่มนุษย์ทั้งหมด"
+	}
+
+	"General zmenu reminder"
+	{
+		"#format"	"{1:s},{2:s}"
+		"th"		"ต้องการความช่วยเหลือเพิ่มเติมสำหรับ Command ของ Z:R ปลั๊กอิน พิมพ์ \"{1}{2}\" ในช่องแชท"
+	}
+
+	// ===========================
+	// Generic (base)
+	// ===========================
+
+	// General
+
+	"Literal text"
+	{
+		"#format"	"{1:s}"
+		"th"		"{1}"
+	}
+	// Set string to "{1}" for all languages.
+
+	"Feature is disabled"
+	{
+		"th"		"ฟีเจอร์นี้ถูกระงับหรือปิดโดยเซิร์ฟเวอร์"
+	}
+
+	"Not enough money"
+	{
+		"th"		"คุณมีเงินไม่พอสำหรับซื้อของชิ้นนี้"
+	}
+
+	"Must be player"
+	{
+		"th"		"ฟีเจอร์นี้สำหรับผู้เล่นเท่านั้น"
+	}
+
+	"Must be admin"
+	{
+		"th"		"ฟีเจอร์นี้สำหรับแอดมินเท่านั้น"
+	}
+
+	"No access to command"
+	{
+		"th"		"คุณไม่มีสิทธิ์เข้าถึง Command นี้"
+	}
+
+	"Must be alive"
+	{
+		"th"		"คุณจะต้องมีชีวิตอยู่ เพื่อที่จะใช้ฟีเจอร์นี้"
+	}
+
+	"Must be dead"
+	{
+		"th"		"คุณจะต้องตายอยู่ เพื่อที่จะใช้ฟีเจอร์นี้"
+	}
+
+	"Must be on team"
+	{
+		"th"		"คุณจะต้องอยู่ในทีม เพื่อที่จะใช้ฟีเจอร์นี้"
+	}
+
+	"Must be zombie"
+	{
+		"th"		"คุณจะต้องเป็นซอมบี้ เพื่อที่จะใช้ฟีเจอร์นี้"
+	}
+
+	"Must be human"
+	{
+		"th"		"คุณจะต้องเป็นมนุษย์ เพื่อที่จะใช้ฟีเจอร์นี้"
+	}
+
+	"Must be in buyzone"
+	{
+		"th"		"คุณจะต้องอยู่ใน Buy Zone ถึงจะใช้ @lgreen!zmarket @defaultได้"
+	}
+
+	"Increase by"
+	{
+		"#format"	"{1:s}"
+		"th"		"เพิ่มขึ้นเป็น {1}"
+	}
+
+	"Decrease by"
+	{
+		"#format"	"{1:s}"
+		"th"		"ลดลงเป็น {1}"
+	}
+
+	"Current Value"
+	{
+		"th"		"ค่าปัจจุบัน:"
+	}
+
+	"Zombie"
+	{
+		"th"		"ซอมบี้"
+	}
+
+	"Human"
+	{
+		"th"		"มนุษย์"
+	}
+
+	// Menu
+
+	"Menu empty"
+	{
+		"th"		"(ว่าง)"
+	}
+
+	// ===========================
+	// Config (core)
+	// ===========================
+
+	// Commands
+
+	"Config command reload syntax"
+	{
+		"th"		"Syntax: zr_reloadconfig <file alias1> [file alias2] ... - เพื่อโหลดไฟล์ตั้งค่าใหม่"
+	}
+
+	"Config command reload related commands"
+	{
+		"th"		"คำสั่งที่เกี่ยวข้อง: zr_config_reloadall"
+	}
+
+	"Config command reload syntax aliases"
+	{
+		"#format"	"{1:s},{2:s},{3:s},{4:s},{5:s}"
+		"th"		"File Aliases:\n* \"{1}\"\n* \"{2}\"\n* \"{3}\"\n* \"{4}\"\n* \"{5}\""
+	}
+
+	"Config command reload invalid"
+	{
+		"#format"	"{1:s}"
+		"th"		"ไฟล์ไม่ถูกต้อง: \"{1}\""
+	}
+
+	"Config command reload not loaded"
+	{
+		"#format"	"{1:s}"
+		"th"		"Config file \"{1}\" failed to load. (Either disabled or invalid file content.)"
+	}
+
+	"Config command reload all stats begin"
+	{
+		"th"		"Reloading all Zombie:Reloaded config files...\n------------------------------------------------"
+	}
+
+	"Config command reload all stats successful"
+	{
+		"#format"	"{1:s}"
+		"th"		"\"{1}\" - Successful."
+	}
+
+	"Config command reload all stats failed"
+	{
+		"#format"	"{1:s}"
+		"th"		"\"{1}\" - Failed. (Either disabled or invalid file content.)"
+	}
+
+	// ===========================
+	// Log (core)
+	// ===========================
+
+	"Log Generic Flag"
+	{
+		// Max length: 19 characters.
+		"th"		"Generic Flag:"
+	}
+
+	"Log Value"
+	{
+		// Max length: 7 characters:
+		"th"		"Value:"
+	}
+
+	"Log Module"
+	{
+		// Max length: 23 characters:
+		"th"		"Module:"
+	}
+
+	"Log Status"
+	{
+		"th"		"Filter Status:"
+	}
+
+	"Log Module Filtering"
+	{
+		"th"		"Module Filtering:"
+	}
+
+	"Log Module Short Name"
+	{
+		"th"		"Short Name:"
+	}
+
+	// ===========================
+	// Classes
+	// ===========================
+
+	// General
+
+	"Classes admin mode enabled"
+	{
+		"th"		"โหมด \"แอดมิน\" ถูกเปิดขึ้น"
+	}
+
+	"Classes random assignment"
+	{
+		"#format"	"{1:s}"
+		"th"		"คลาสของคุณถูกสุ่มตั้งเป็น @green\"{1}\" @defaultเนื่องจากการตั้งค่าทางเซิร์ฟเวอร์"
+	}
+
+	// Center Text/HUD
+
+	"Classes overlay toggle"
+	{
+		"#format"	"{1:s}"
+		"th"		"เปิดหน้าต่าง Overlay ของคลาส โดยการพิมพ์: {1}"
+	}
+
+	// Menu
+
+	"Classes menu title"
+	{
+		"th"		"เลือกคลาสของคุณ:"
+	}
+
+	"Classes menu active"
+	{
+		"#format"	"{1:s}"
+		"th"		"กำลังใช้: {1}"
+	}
+
+	"Classes menu next"
+	{
+		"#format"	"{1:s}"
+		"th"		"เกิดรอบหน้า: {1}"
+	}
+
+	"Classes menu select zombie"
+	{
+		"th"		"เลือกคลาสของซอมบี้"
+	}
+
+	"Classes menu select human"
+	{
+		"th"		"เลือกคลาสของมนุษย์"
+	}
+
+	"Classes menu select admin"
+	{
+		"th"		"เลือกคลาสสำหรับ \"แอดมิน\" "
+	}
+
+	"Classes menu admin mode toggle"
+	{
+		"th"		"เปิดปิดโหมด Admin"
+	}
+
+	"Classes Menu Team Select Title"
+	{
+		"th"		"เลือกทีม:"
+	}
+
+	"Classes Menu Zombies"
+	{
+		"th"		"ซอมบี้"
+	}
+
+	"Classes Menu Humans"
+	{
+		"th"		"มนุษย์"
+	}
+
+	"Classes Menu Multiplier Select Title"
+	{
+		"th"		"Select Multiplier:"
+	}
+
+	"Classes Menu Adjust Value"
+	{
+		"th"		"Adjust Value:"
+	}
+
+	// Attributes
+
+	"Classes Attrib Napalm Time"
+	{
+		"th"		"Napalm Time"
+	}
+
+	"Classes Attrib Health"
+	{
+		"th"		"Health"
+	}
+
+	"Classes Attrib Regen Interval"
+	{
+		"th"		"Health Regeneration Interval"
+	}
+
+	"Classes Attrib Regen Amount"
+	{
+		"th"		"Health Regeneration Amount"
+	}
+
+	"Classes Attrib Infect Gain"
+	{
+		"th"		"Infection Health Gain"
+	}
+
+	"Classes Attrib Speed"
+	{
+		"th"		"Running Speed"
+	}
+
+	"Classes Attrib Knockback"
+	{
+		"th"		"Knock Back"
+	}
+
+	"Classes Attrib Jump Height"
+	{
+		"th"		"Jump Height"
+	}
+
+	"Classes Attrib Jump Distance"
+	{
+		"th"		"Jump Distance"
+	}
+
+	"Classes Selection Not Allowed"
+	{
+		"th"		"Changing classes is not allowed."
+	}
+
+	// ===========================
+	// Immunity
+	// ===========================
+
+	"Immunity Shield Not Available"
+	{
+		"th"		"คุณไม่มี Shield ในตอนนี้"
+	}
+
+	"Immunity Shield Cooldown"
+	{
+		"#format"	"{1:d}"
+		"th"		"Shield จะสามารถใช้งานได้ใน {1} วินาที"
+	}
+
+	"Immunity Shield Time Left"
+	{
+		"#format"	"{1:d}"
+		"th"		"เวลาของ Shield เหลือ: {1}"
+	}
+
+	// ===========================
+	// Overlays (core)
+	// ===========================
+
+	"Overlays not supported"
+	{
+		"#format"	"{1:d},{2:d}"
+		"th"		"Blocking Overlay - DX{1} Detected (DX{2} Required)"
+	}
+
+	// ===========================
+	// Infect (core)
+	// ===========================
+
+	// General
+
+	"Infect infected"
+	{
+		"th"		"คุณถูกทำให้กลายเป็นซอมบี้ แพร่เชื้อใส่ผู้เล่นคนอื่นให้ได้มากที่สุด!"
+	}
+
+	"Infect human"
+	{
+		"th"		"พระเจ้า (หรือรู้จักกันในนามแอดมิน) ได้ทำการฟื้นคืนชีพคุณ หาที่หลบเร็ว!"
+	}
+
+	"Infect disconnect"
+	{
+		"th"		"ซอมบี้ตัวสุดท้ายได้ออกจากเกมส์ และส่งต่อเชื้อร้ายมาที่คุณ"
+	}
+
+	"Mother zombie infect cycle reset"
+	{
+		"th"			"วงจรซอมบี้ตัวแม่ถูกรีเซ็ตใหม่ รอบหน้าคนที่เคยเป็นซอมบี้แม่มาก่อน อาจจะได้กลับมาเป็นอีกครั้ง"
+	}
+
+	// Center Text
+
+	"Infect countdown"
+	{
+		"#format"	"{1:d}"
+		"th"		"ซอมบี้ตัวแรกจะเกิดใน {1} วินาที"
+	}
+
+	// Menu
+
+	"Infect menu clients title"
+	{
+		"th"		"Zombie Management\nToggle Infection:\n[] = Infected"
+	}
+
+	// Commands
+
+	"Infect command infect syntax"
+	{
+		"th"		"เปลี่ยนผู้เล่นเป็นซอมบี้ พิมพ์: zr_infect <filter> [respawn - 1/0]"
+	}
+
+	"Infect command human syntax"
+	{
+		"th"		"เปลี่ยนผู้เล่นเป็นมนุษย์ พิมพ์: zr_human <filter> [respawn - 1/0] [protect - 1/0]"
+	}
+
+	"Infect command infect successful"
+	{
+		"#format"	"{1:s}"
+		"th"		"เปลี่ยนผู้เล่น @green{1}@default เป็นซอมบี้ได้สำเร็จ"
+	}
+
+	"Infect command infect successful public"
+	{
+		"#format"	"{1:s},{2:s}"
+		"th"		"@lgreen{1}@default เปลี่ยนผู้เล่น @green{2}@default เป็นซอมบี้"
+	}
+
+	"Infect command infect mother successful"
+	{
+		"#format"	"{1:s}"
+		"th"		"เปลี่ยนผู้เล่น @green{1}@defaultเป็นซอมบี้ตัวแม่ได้สำเร็จ"
+	}
+
+	"Infect command infect mother successful public"
+	{
+		"#format"	"{1:s},{2:s}"
+		"th"		"@lgreen{1}@default เปลี่ยนผู้เล่น @green{2}@default เป็นซอมบี้ตัวแม่"
+	}
+
+	"Infect command infect unsuccessful"
+	{
+		"#format"	"{1:s}"
+		"th"		"ไม่สามารถเปลี่ยน @green{1}@default ให้เป็นซอมบี้ได้"
+	}
+
+	"Infect command human successful"
+	{
+		"#format"	"{1:s}"
+		"th"		"เปลี่ยนผู้เล่น @green{1}@default ให้เป็นมนุษย์สำเร็จ"
+	}
+
+	"Infect command human successful public"
+	{
+		"#format"	"{1:s},{2:s}"
+		"th"		"@lgreen{1}@default เปลี่ยนผู้เล่น @green{2}@default ให้เป็นมนุษย์"
+	}
+
+	"Infect command human unsuccessful"
+	{
+		"#format"	"{1:s}"
+		"th"		"ไม่สามารถเปลี่ยน @green{1}@default ให้เป็นมนุษย์"
+	}
+
+	// ===========================
+	// Damage (core)
+	// ===========================
+
+	"Damage suicide intercept"
+	{
+		"th"		"การฆ่าตัวตายถูกระงับเอาไว้"
+	}
+
+	// ===========================
+	// Menu (core)
+	// ===========================
+
+	// General
+
+	"Menu main title"
+	{
+		"#format"	"{1:s},{2:s}"
+		"th"		"ZR Commands:\nพิมพ์ \"{1}\" or \"{2}\" (ซ่อนในช่องแชท) นำหน้าเวลาพิมพ์คำสั่งในแชท"
+	}
+
+	"Menu main zadmin"
+	{
+		"th"		"ZAdmin - เปิดหน้าต่างแอดมิน"
+	}
+
+	"Menu main zclass"
+	{
+		"th"		"ZClass - เปลี่ยนและตั้งคลาสของคุณ"
+	}
+
+	"Menu main zcookies"
+	{
+		"th"		"ZCookies - ตั้งค่าตัวเลือกของคุณ"
+	}
+
+	"Menu main zspawn"
+	{
+		"th"		"ZSpawn - เกิดในเกมส์"
+	}
+
+	"Menu main ztele"
+	{
+		"th"		"ZTele -  วาปกลับไปที่จุดเกิด"
+	}
+
+	"Menu main zhp"
+	{
+		"th"		"ZHP - แสดงค่า HP ของซอมบี้ที่ถูกต้อง"
+	}
+
+	"Menu main zmarket"
+	{
+		"th"		"ZMarket - ซื้ออาวุธของคุณ"
+	}
+
+	// ===========================
+	// Weapons (core)
+	// ===========================
+
+	// General
+
+	"Zombie cant use weapon"
+	{
+		"th"		"ซอมบี้ใช้อาวุธปืนไม่ได้!"
+	}
+
+	// Restrict
+
+	"Restrict weapon"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธ @green\"{1}\"@default ได้ถูกระงับไว้"
+	}
+
+	"Unrestrict weapon"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธ @green\"{1}\"@default ได้ถูกปล่อยระงับ"
+	}
+
+	"Restrict weapon stopped"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธ @green\"{1}\"@default ถูกระงับไว้แล้ว"
+	}
+
+	"Unrestrict weapon stopped"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธ @green\"{1}\"@default ยังไม่ถูกระงับ"
+	}
+
+	"Restrict weapon type"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธประเภท @green\"{1}\"@default ได้ถูกระงับไว้"
+	}
+
+	"Unrestrict weapon type"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธประเภท @green\"{1}\"@default ได้ถูกปล่อยระงับ"
+	}
+
+	"Restrict weapon type stopped"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธประเภท @green\"{1}\"@default ถูกระงับไว้แล้ว"
+	}
+
+	"Unrestrict weapon type stopped"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธประเภท @green\"{1}\"@default ยังไม่ได้ถูกระงับ"
+	}
+
+	"Restrict weapon untoggleable"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธ @green\"{1}\"@default ไม่สามารถถูกตั้งค่าการระงับได้"
+	}
+
+	"Weapon invalid"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธ @green\"{1}\"@default ไม่มีหรือชื่ออาวุธไม่ถูกต้อง"
+	}
+
+	"Weapon is restricted"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธ @green{1}@default ถูกระงับไว้"
+	}
+
+	// ZMarket
+
+	"Weapons zmarket buyzone"
+	{
+		"th"		"คุณต้องอยู่ใน buyzone เพื่อที่จะใช้ ZMarket ได้"
+	}
+
+	"Weapons zmarket purchase"
+	{
+		"#format"	"{1:s}"
+		"th"		"คุณได้ซื้ออาวุธ @green{1}.@default เลือกซื้ออาวุธหากกระสุนคุณเหลือน้อย"
+	}
+
+	"Weapons zmarket purchase max"
+	{
+		"#format"	"{1:s},{2:d}"
+		"th"		"อาวุธ @green{1}@default ถูกซื้อถึงจำนวนที่กำหนดไว้ (@green{2}@default ครั้งต่อรอบ)  กรุณารอรอบต่อไป"
+	}
+
+	"Weapons zmarket grenade max"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณสามารถพกระเบิดได้แค่ {1} ชนิด"
+	}
+
+	"Weapons zmarket not enough money"
+	{
+		"th"		"คุณมีเงินไม่พอ"
+	}
+
+	"Weapons zmarket updated loadout"
+	{
+		"th"		"คุณไม่สามารถซื้ออาวุธได้ในตอนนี้ แต่ Loadout ของคุณได้ถูกเปลี่ยนเป็นอาวุธนั้นแทน"
+	}
+
+	"Weapons zmarket get current loadout"
+	{
+		"th"		"Loadout ถูกเปลี่ยน กดหรือใช้ rebuy เพื่อซื้ออาวุธเหล่านั้นอีกครั้ง"
+	}
+
+	// Commands
+
+	"Weapons command restrict syntax"
+	{
+		"th"		"Restricts a weapon or a weapon type. Usage: zr_restrict <weapon|weapon type> [weapon2|weapontype2] ..."
+	}
+
+	"Weapons command unrestrict syntax"
+	{
+		"th"		"Unrestricts a weapon or a weapon type. Usage: zr_unrestrict <weapon|weapon type> [weapon2|weapontype2] ..."
+	}
+
+	// Menu (Restrict)
+
+	"Weapons menu restrict main title"
+	{
+		"th"		"การจัดการตั้งค่าอาวุธ"
+	}
+
+	"Weapons menu restrict main restrict"
+	{
+		"th"		"ระงับการใช้อาวุธ"
+	}
+
+	"Weapons menu restrict main market"
+	{
+		"th"		"ZMarket"
+	}
+
+	"Weapons menu restrict types title"
+	{
+		"th"		"ระงับการใช้อาวุธ\nเลือกประเภทอาวุธ:"
+	}
+
+	"Weapons menu restrict types weapon type title"
+	{
+		"#format"	"{1:s}"
+		"th"		"ระงับการใช้อาวุธ\nอาวุธประเภท: {1}\n[] = ถูกระงับ"
+	}
+
+	"Weapons menu restrict types restrict all"
+	{
+		"#format"	"{1:s}"
+		"th"		"ระงับอาวุธประเภท {1}"
+	}
+
+	"Weapons menu restrict types unrestrict all"
+	{
+		"#format"	"{1:s}"
+		"th"		"ปลดระงับอาวุธประเภท {1}"
+	}
+
+	"Weapons menu restrict zmarket title"
+	{
+		"th"		"ZMarket\nตั้งค่า:"
+	}
+
+	"Weapons menu restrict zmarket buyzone"
+	{
+		"#format"	"{1:s}"
+		"th"		"ใช้ได้เฉพาะใน Buyzone - {1}"
+	}
+
+	// Menu (ZMarket)
+
+	"Weapons menu zmarket main title"
+	{
+		"th"		"ZMarket\nเลือกตั้งค่า:"
+	}
+
+	"Weapons menu zmarket main get loadout"
+	{
+		"th"		"เซฟอาวุธที่ใช้อยู่ตอนนี้"
+	}
+
+	"Weapons menu zmarket main edit loadout"
+	{
+		"th"		"ตั้งค่าอาวุธตอนเริ่ม"
+	}
+
+	"Weapons menu zmarket main rebuy"
+	{
+		"th"		"ซื้ออาวุธที่ตั้งค่าไว้"
+	}
+
+	"Weapons menu zmarket main weapons list"
+	{
+		"th"		"ซื้ออาวุธ"
+	}
+
+	"Weapons menu zmarket loadout title"
+	{
+		"th"		"ZMarket\nชุดอาวุธปัจจุบัน:\nเลือก Slot อาวุธเพื่อตั้งค่า.\nNote: การ Rebuy จะมอบอาวุธเหล่านี้ให้คุณ\nคุณจะเกิดใหม่พร้อมอาวุธพวกนี้"
+	}
+
+	"Weapons menu zmarket loadout primary"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธหลัก: {1}"
+	}
+
+	"Weapons menu zmarket loadout secondary"
+	{
+		"#format"	"{1:s}"
+		"th"		"อาวุธรอง: {1}"
+	}
+
+	"Weapons menu zmarket loadout default"
+	{
+		"#format"	"{1:s}"
+		"th"		"ค่าเริ่มต้น ({1})"
+	}
+
+	"Weapons menu zmarket loadout weapons title"
+	{
+		"th"		"ZMarket\nเลือกอาวุธสำหรับ Loadout:"
+	}
+
+	"Weapons menu zmarket types title"
+	{
+		"th"		"ZMarket\nเลือกประเภทอาวุธ:"
+	}
+
+	"Weapons menu zmarket types weapon type title"
+	{
+		"#format"	"{1:s}"
+		"th"		"ZMarket\nอาวุธประเภท: {1}\n[] = ถุกระงับอยู่"
+	}
+
+	"Weapons menu zmarket types weapon info"
+	{
+		"#format"	"{1:s},{2:d},{3:d}"
+		"th"		"{1} (${2})\nซื้อได้อีก: {3} ครั้ง"
+	}
+
+	"Weapons menu zmarket types weapon ammo"
+	{
+		"th"		"กระสุน"
+	}
+
+	// ===========================
+	// Hitgroups (core)
+	// ===========================
+
+	// Menu
+
+	"Hitgroups menu hitgroups title"
+	{
+		"th"		"Hitgroup Management\nCommands: zr_hitgroup(_enable_all/_headshots_only)\nSelect a Hitgroup to Toggle:"
+	}
+
+	"Hitgroups menu hitgroups enable all"
+	{
+		"th"		"Enable All Hitgroups"
+	}
+
+	"Hitgroups menu hitgroups headshots only"
+	{
+		"th"		"Headshots Only"
+	}
+
+	// Commands
+
+	"Hitgroups command syntax"
+	{
+		"th"		"Toggles or sets if a zombie's hitgroup can be damaged. Usage: zr_hitgroup <hitgroup alias> [1/0]"
+	}
+
+	"Hitgroups command related commands"
+	{
+		"th"		"Related command(s): zr_hitgroup_enable_all, zr_hitgroup_headshots_only"
+	}
+
+	"Hitgroups command syntax names"
+	{
+		"th"		"Hitgroup Names:"
+	}
+
+	"Hitgroups command successful on"
+	{
+		"#format"	"{1:s}"
+		"th"		"Damage for hitgroup \"{1}\" has been toggled on."
+	}
+
+	"Hitgroups command successful off"
+	{
+		"#format"	"{1:s}"
+		"th"		"Damage for hitgroup \"{1}\" has been toggled off."
+	}
+
+	"Hitgroups command invalid hitgroup"
+	{
+		"#format"	"{1:s}"
+		"th"		"\"{1}\" is not a valid hitgroup alias.  Type zr_hitgroup to view all aliases."
+	}
+
+	"Hitgroups command enable all successful"
+	{
+		"th"		"All zombie hitgroups have been enabled for damage."
+	}
+
+	"Hitgroups command headshots only successful"
+	{
+		"th"		"Zombies may now only be damaged by headshots."
+	}
+
+	// ===========================
+	// ZAdmin (core)
+	// ===========================
+
+	"ZAdmin main title"
+	{
+		"th"		"ZAdmin\nSelect Category:"
+	}
+
+	"ZAdmin main class multipliers"
+	{
+		"th"		"Class Multipliers"
+	}
+
+	"ZAdmin main weapons"
+	{
+		"th"		"การจัดการอาวุธ"
+	}
+
+	"ZAdmin main hitgroups"
+	{
+		"th"		"Hitgroup Management"
+	}
+
+	"ZAdmin main zombie"
+	{
+		"th"		"การจัดการซอมบี้"
+	}
+
+	"ZAdmin main force zspawn"
+	{
+		"th"		"บังคับ ZSpawn"
+	}
+
+	"ZAdmin main force ztele"
+	{
+		"th"		"บังคับ ZTele"
+	}
+
+	// ===========================
+	// AntiStick (module)
+	// ===========================
+
+	// Commands
+
+	"AntiStick command set width syntax"
+	{
+		"th"		"Sets the width of a model's hull. (See zr_antistick_list_models) Usage: zr_antistick_set_width <model/player> <width>"
+	}
+
+	"AntiStick command list models list"
+	{
+		"th"		"Player name:                        Model:                                              Hull width:\n-------------------------------------------------------------------------------------------------------------"
+	}
+
+	"AntiStick command list models name"
+	{
+		"#format"	"{1:-35s},{2:-51s},{3:-.2f}"
+		"th"		"{1} {2} {3}"
+	}
+
+	"AntiStick command set width successful"
+	{
+		"#format"	"{1:s},{2:f}"
+		"th"		"Model hull width for model \"{1}\" has been changed to \"{2}.\""
+	}
+
+	"AntiStick command set width invalid model"
+	{
+		"#format"	"{1:s}"
+		"th"		"Invalid model/player specified: \"{1}\""
+	}
+
+	"AntiStick command set width invalid width"
+	{
+		"#format"	"{1:f}"
+		"th"		"Invalid model hull width specified: \"{1}\""
+	}
+
+	// ===========================
+	// Spawn Protect (module)
+	// ===========================
+
+	// General
+
+	"Spawn protection begin"
+	{
+		"#format"	"{1:d}"
+		"th"		"มีซอมบี้อยู่ใกล้เคียง คุณมีเวลา {1} วินาที ในการหาที่ปลอดภัยก่อน Protect จะหมดลง"
+	}
+
+	"Spawn protection end"
+	{
+		"th"		"การถูกโจมตีครั้งต่อไปจะทำให้คุณกลายเป็นซอมบี้"
+	}
+
+	// HUD
+
+	"Spawn Protect"
+	{
+		"#format"	"{1:d}"
+		"th"		"Protect ซอมบี้ จะหมดใน: {1} วินาที"
+	}
+
+	// ===========================
+	// ZCookies (module)
+	// ===========================
+
+	"ZCookies Menu main title"
+	{
+		"th"		"ZCookies\nตั้งค่าตัวเลือก:"
+	}
+
+	"ZCookies menu main auto-rebuy"
+	{
+		"#format"	"{1:s}"
+		"th"		"ZMarket Rebuy อัตโนมัติ: {1}"
+	}
+
+	"ZCookies menu main zhp"
+	{
+		"#format"	"{1:s}"
+		"th"		"แสดง ZHP: {1}"
+	}
+
+	"ZCookies menu main overlay"
+	{
+		"#format"	"{1:s}"
+		"th"		"Overlay สำหรับคลาส: {1}"
+	}
+
+	"ZCookies zmarket loadout"
+	{
+		"th"		"ZMarket Loadout"
+	}
+
+	// ===========================
+	// ZSpawn (module)
+	// ===========================
+
+	// General
+
+	"ZSpawn double spawn"
+	{
+		"th"		"ZSpawn สามารถใช้ได้เฉพาะตอนที่คุณเข้าเกมส์ช้า"
+	}
+
+	"ZSpawn timelimit"
+	{
+		"#format"	"{1:d}"
+		"th"		"หลังจากผ่านเวลา ({1} seconds) การใช้ Zspawn ได้ถูกปิดลง"
+	}
+
+	// Menu
+
+	"ZSpawn clients title"
+	{
+		"th"		"บังคับ ZSpawn (zr_zspawn_force)\nเลือกผู้เล่น:"
+	}
+
+	// Commands
+
+	"ZSpawn command force syntax"
+	{
+		"th"		"บังคับใช้ ZSpawn กับผู้เล่น. Usage: zr_zspawn_force <client> ['0' = Spawn as human | '1' = Spawn as zombie]"
+
+	}
+
+	"ZSpawn command force successful"
+	{
+		"#format"	"{1:s}"
+		"th"		"บังคับเกิดผู้เล่น @lgreen{1}@default ได้สำเร็จ"
+	}
+
+	"ZSpawn command force successful public"
+	{
+		"#format"	"{1:s},{2:s},{3:s}"
+		"th"		"@lgreen{1}@default ได้บังคับเกิดผู้เล่น @green{2}@default ให้เป็น @lgreen{3}"
+	}
+
+	"ZSpawn command force unsuccessful"
+	{
+		"#format"	"{1:s}"
+		"th"		"ไม่สามารถบังคับ zspawn ผู้เล่น @lgreen{1}@default ได้"
+	}
+
+	// ===========================
+	// ZTele (module)
+	// ===========================
+
+	// General
+
+	"ZTele restricted human"
+	{
+		"th"		"ZTele ถูกระงับสำหรับฝั่งมนุษย์ในตอนนี้"
+	}
+
+	"ZTele max"
+	{
+		"#format"	"{1:d}"
+		"th"		"คุณได้ใช้ ZTele ครบ {1} ครั้ง ในรอบนี้แล้ว"
+	}
+
+	"ZTele in progress"
+	{
+		"th"		"คุณกำลังจะถูกวาป"
+	}
+
+	"ZTele autocancel text"
+	{
+		"#format"	"{1:d}"
+		"th"		"การวาปถูกยกเลิก เนื่องจากผู้เล่นเดิน (ขอบเขตที่ถูกจำกัดไว้: {1} ft.)"
+	}
+
+	// Center Text
+
+	"ZTele countdown"
+	{
+		"#format"	"{1:d}"
+		"th"		"จะวาปกลับไปจุดเกิดใน {1} วินาที"
+	}
+
+	"ZTele autocancel centertext"
+	{
+		"th"		"การวาปถูกยกเลิก"
+	}
+
+	"ZTele countdown end"
+	{
+		"#format"	"{1:d},{2:d}"
+		"th"		"วาปกลับมาที่จุดเกิดแล้ว (เหลือ: {1}/{2})"
+	}
+
+	// Menu
+
+	"ZTele clients title"
+	{
+		"th"		"บังคับ ZTele (zr_ztele_force)\nเลือกผู้เล่น:"
+	}
+
+	// Commands
+
+	"ZTele command force syntax"
+	{
+		"th"		"บังคับ ZTele ผู้เล่น Usage: zr_ztele_force <client>"
+
+	}
+
+	"ZTele command force successful"
+	{
+		"#format"	"{1:s}"
+		"th"		"บังคับ ZTele ผู้เล่น @lgreen{1}@default ได้สำเร็จ"
+	}
+
+	"ZTele command force unsuccessful"
+	{
+		"#format"	"{1:s}"
+		"th"		"ไม่สามารถ ZTele ผู้เล่น @lgreen{1}@default ได้"
+	}
+
+	// ===========================
+	// ZHP (module)
+	// ===========================
+
+	// General
+
+	"ZHP enable"
+	{
+		"th"		"แสดง HP ถูกเปิด ค่า HP ของคุณจะแสดงหลังจากที่กลายเป็นซอมบี้"
+	}
+
+	"ZHP disable"
+	{
+		"th"		"แสดง HP ถูกปิด"
+	}
+
+	// HUD
+
+	"Display HP"
+	{
+		"#format"	"{1:d}"
+		"th"		"HP: {1}"
+	}
+
+	// ===========================
+	// Volumetric features (module)
+	// ===========================
+
+	"Vol Anticamp Message"
+	{
+		"th"		"พื้นที่นี้ถูกปิดอยู่ กรุณาไปที่อื่นแทน"
+	}
+
+	"Vol Slay"
+	{
+		"#format"	"{1:s},{2:d}"
+		"th"		"ฆ่าผู้เล่น \"{1}\" เนื่องจากแคมป์ในพื้นที่ต้องห้าม (ID: {2})."
+	}
+
+	"Vol Ignite"
+	{
+		"#format"	"{1:s},{2:d}"
+		"th"		"เผาผู้เล่น \"{1}\" เนื่องจากแคมป์ในพื้นที่ต้องห้าม (ID: {2})."
+	}
+}

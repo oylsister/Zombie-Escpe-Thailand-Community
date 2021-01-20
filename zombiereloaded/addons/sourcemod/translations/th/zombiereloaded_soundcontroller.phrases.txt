@@ -1,0 +1,165 @@
+"Phrases"
+{
+	"Cookie_Menu"
+	{
+		"th"	"Zombie:Reloaded ตัวเลือกเสียง"
+	}
+	
+	"Menu main zvolume"
+	{
+		"th"	"ZVolume - ZR ตัวเลือกเสียง"
+	}
+	
+	"Menu_Title_Main"
+	{
+		"th"	"[ZR] Zombie:Reloaded ตัวเลือกเสียง\n \n"
+	}
+	
+	"Menu_ZSound"
+	{
+		"th"	"เสียงซอมบี้"
+	}
+	
+	"Menu_Countdown"
+	{
+		"th"	"เสียงนับถอยหลังก่อนติดเชื้อ"
+	}
+	
+	"Menu_Ambient"
+	{
+		"th"	"เสียง Ambient"
+	}
+	
+	"Menu_Title_ZSound"
+	{
+		"th"	"[ZR] เมนูเสียงซอมบี้"
+	}
+	
+	"Menu_Title_Countdown"
+	{
+		"th"	"[ZR] เมนูเสียงนับถอยหลังก่อนติดเชื้อ"
+	}
+	
+	"Menu_Title_Ambient"
+	{
+		"th"	"[ZR] เมนูเสียง Ambient"
+	}
+	
+	"Menu_Music_ZSound"
+	{
+		"#format"	"{1:T}"
+		
+		"th"	"เสียงซอมบี้: {1}"
+	}
+	
+	"Menu_AdjustDesc_ZSound"
+	{
+		"th"	"คุณสามารถใช้คำสั่งลัดแทน \nโดยการพิมพ์ \"!zsound <0-100>\"\n หรือ \"!zombie_volume <0-100>\" \n"
+	}
+
+	"Menu_Vol_ZSound"
+	{
+		"#format"	"{1:d}"
+
+		"th"	"ระดับเสียง: {1}"
+	}
+
+	"Menu_Music_Countdown"
+	{
+		"#format"	"{1:T}"
+		
+		"th"	"เสียงนับถอยหลังก่อนติดเชื้อ: {1}"
+	}
+	
+	"Menu_AdjustDesc_Countdown"
+	{
+		"th"	"คุณสามารถใช้คำสั่งลัดแทน \nโดยการพิมพ์ \"!zcount <0-100>\"\n หรือ \"!countdown_volume <0-100>\" \n"
+	}
+
+	"Menu_Vol_Countdown"
+	{
+		"#format"	"{1:d}"
+
+		"th"	"ระดับเสียง: {1}"
+	}
+	
+	"Menu_Music_Ambient"
+	{
+		"#format"	"{1:T}"
+		
+		"th"	"เสียง Ambient: {1}"
+	}
+	
+	"Menu_AdjustDesc_Ambient"
+	{
+		"th"	"คุณสามารถใช้คำสั่งลัดแทน \nโดยการพิมพ์ \"!zambient <0-100>\"\n หรือ \"!ambient_volume <0-100>\" \n"
+	}
+
+	"Menu_Vol_Ambient"
+	{
+		"#format"	"{1:d}"
+
+		"th"	"ระดับเสียง: {1}"
+	}
+
+	"Enabled"
+	{
+		"th"	"ถูกเปิดอยู่"
+	}
+
+	"Disabled"
+	{
+		"th"	"ถูกปิดอยู่"
+	}
+
+	"Text_ZSoundEnable"
+	{
+		"th"	"เสียงซอมบี้ @lgreenถูกเปิดขึ้น"
+	}
+
+	"Text_ZSoundDisable"
+	{
+		"th"	"เสียงซอมบี้ @lgreenถูกปิดลง"
+	}
+	
+	"Text_CountdownEnable"
+	{
+		"th"	"เสียงนับถอยหลังก่อนติดเชื้อ @lgreenถูกเปิดขึ้น"
+	}
+
+	"Text_CountdownDisable"
+	{
+		"th"	"เสียงนับถอยหลังก่อนติดเชื้อ @lgreenถูกปิดลง"
+	}
+	
+	"Text_AmbientEnable"
+	{
+		"th"	"เสียง Ambient @lgreenถูกเปิดขึ้น"
+	}
+
+	"Text_AmbientDisable"
+	{
+		"th"	"เสียง Ambient @lgreenถูกปิดลง"
+	}
+
+	"Text_ZSoundVolume"
+	{
+		"#format"	"{1:d}"
+
+		"th"	"เสียงซอมบี้ @lgreenถูกเปิดขึ้น @defaultในระดับเสียง: @lgreen{1}"
+	}
+	
+	"Text_CountdownVolume"
+	{
+		"#format"	"{1:d}"
+
+		"th"	"เสียงนับถอยหลังก่อนติดเชื้อ @lgreenถูกเปิดขึ้น @defaultในระดับเสียง: @lgreen{1}"
+	}
+	
+	"Text_AmbientVolume"
+	{
+		"#format"	"{1:d}"
+
+		"th"	"เสียง Ambient @lgreenถูกเปิดขึ้น @defaultในระดับเสียง: @lgreen{1}"
+	}
+}
