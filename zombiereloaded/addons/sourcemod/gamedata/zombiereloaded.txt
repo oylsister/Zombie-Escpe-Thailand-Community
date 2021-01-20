@@ -6,7 +6,7 @@
 		{
 			"m_LastHitGroup"
 			{
-				"windows"		"1820"
+				"windows"	"1820"
 				"linux"		"1821"
 			}
 		}
@@ -17,7 +17,7 @@
 		{
 			"m_LastHitGroup"
 			{
-				"windows"		"4443"
+				"windows"	"4443"
 				"linux"		"4444"
 			}
 		}
