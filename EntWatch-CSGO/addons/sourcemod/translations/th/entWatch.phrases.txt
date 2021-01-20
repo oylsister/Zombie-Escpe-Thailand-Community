@@ -1,0 +1,271 @@
+"Phrases"
+{
+	"welcome"
+	{
+		"th" 	"The current map is supported by this plugin."
+	}
+	"use"
+	{
+		"th" 	"used"
+	}
+	"pickup"
+	{
+		"th" 	"has picked up"
+	}
+	"drop"
+	{
+		"th" 	"has dropped"
+	}
+	"death"
+	{
+		"th" 	"has died with"
+	}
+	"disconnect"
+	{
+		"th" 	"disconnected with"
+	}
+	"cookies loading"
+	{
+		"th" 	"Please wait. Your settings are still loading."
+	}
+	"status restricted"
+	{
+		"th" 	"You are currently restricted."
+	}
+	"status unrestricted"
+	{
+		"th" 	"You are currently unrestricted."
+	}
+	"display enabled"
+	{
+		"th" 	"The hud is now enabled."
+	}
+	"display disabled"
+	{
+		"th" 	"The hud is now disabled."
+	}
+	"hudpos"
+	{
+		"th" 	"hud position is saved."
+	}
+	"hudpos_wrong"
+	{
+		"th" 	"hud position is wrong."
+	}
+	"hudcolor"
+	{
+		"th" 	"hud color is saved."
+	}
+	"hudcolor_wrong"
+	{
+		"th" 	"hud color is wrong."
+	}
+	"restricted"
+	{
+		"th" 	"restricted"
+	}
+	"unrestricted"
+	{
+		"th" 	"unrestricted"
+	}
+	"entWatch Commands"
+	{
+		"th" 	"entWatch Commands"
+	}
+	"List Banned Clients"
+	{
+		"th" 	"List Banned Clients"
+	}
+	"Ban a Client"
+	{
+		"th" 	"Ban a Client"
+	}
+	"Transfer an item"
+	{
+		"th" 	"Transfer an item"
+	}
+	"Give an Item"
+	{
+		"th" 	"Give an Item"
+	}
+	"Unban a Client"
+	{
+		"th" 	"Unban a Client"
+	}
+	"Banned Clients"
+	{
+		"th" 	"Banned Clients"
+	}
+	"No Banned Clients"
+	{
+		"th" 	"No Banned Clients"
+	}
+	"No transferable items currently held"
+	{
+		"th" 	"No transferable items currently held"
+	}
+	"No Give items currently held"
+	{
+		"th" 	"No Give items currently held"
+	}
+	"Item no longer available"
+	{
+		"th" 	"Item no longer available"
+	}
+	"Item is already picked up"
+	{
+		"th" 	"Item is already picked up"
+	}
+	"Transfer iTarget"
+	{
+		"th" 	"Transfer iTarget"
+	}
+	"Give iTarget"
+	{
+		"th" 	"Give iTarget"
+	}
+	"Receiver is not valid anymore"
+	{
+		"th" 	"Receiver is not valid anymore"
+	}
+	"The receivers team differs from the targets team"
+	{
+		"th" 	"The receivers team differs from the targets team"
+	}
+	"transfered all items"
+	{
+		"th" 	"transfered all items from"
+	}
+	"transfered"
+	{
+		"th" 	"transfered"
+	}
+	"tai to"
+	{
+		"th" 	"to"
+	}
+	"Item is not valid anymore"
+	{
+		"th" 	"Item is not valid anymore"
+	}
+	"The receivers team is not CT or TER"
+	{
+		"th" 	"The receivers team is not CT or TER"
+	}
+	"give item"
+	{
+		"th" 	"give item"
+	}
+	"Item dont pickable"
+	{
+		"th" 	"Item dont pickable"
+	}
+	"Ban Time for"
+	{
+		"th" 	"Ban Time for"
+	}
+	"Temporary"
+	{
+		"th" 	"Temporary"
+	}
+	"Minutes"
+	{
+		"th" 	"Minutes"
+	}
+	"Hour"
+	{
+		"th" 	"Hour"
+	}
+	"Day"
+	{
+		"th" 	"Day"
+	}
+	"Week"
+	{
+		"th" 	"Week"
+	}
+	"Month"
+	{
+		"th" 	"Month"
+	}
+	"Permanent"
+	{
+		"th" 	"Permanent"
+	}
+	"Banned Client"
+	{
+		"th" 	"Banned Client"
+	}
+	"Duration"
+	{
+		"th" 	"Duration"
+	}
+	"Expires"
+	{
+		"th" 	"Expires"
+	}
+	"Never"
+	{
+		"th" 	"Never"
+	}
+	"On Map Change"
+	{
+		"th" 	"On Map Change"
+	}
+	"Issued on"
+	{
+		"th" 	"Issued on"
+	}
+	"Admin SID"
+	{
+		"th" 	"Admin SID"
+	}
+	"Unban"
+	{
+		"th" 	"Unban"
+	}
+	"is temporarily restricted"
+	{
+		"th" 	"is temporarily restricted"
+	}
+	"is not restricted"
+	{
+		"th" 	"is not restricted"
+	}
+	"is permanently restricted"
+	{
+		"th" 	"is permanently restricted"
+	}
+	"is restricted for another"
+	{
+		"th" 	"is restricted for another"
+	}
+	"cookies havent loaded yet"
+	{
+		"th" 	"s cookies havent loaded yet"
+	}
+	"No players found"
+	{
+		"th" 	"No players found"
+	}
+	"Currently e-banned"
+	{
+		"th" 	"Currently e-banned"
+	}
+	"Edict targets"
+	{
+		"th" 	"Edict targets"
+	}
+	"Target is not valid"
+	{
+		"th" 	"Target is not valid"
+	}
+	"No one is currently holding that item"
+	{
+		"th" 	"No one is currently holding that item"
+	}
+	"Invalid item name"
+	{
+		"th" 	"Invalid item name"
+	}
+}
