@@ -26,47 +26,47 @@
 	}
 	"cookies loading"
 	{
-		"th" 	"โปรดรอ ค่าตั่งค่าของคุณกำลังโหลดอยู่"
+		"th" 	"โปรดรอ ค่าตัวเลือกของคุณกำลังโหลดอยู่"
 	}
 	"status restricted"
 	{
-		"th" 	"คุณ"
+		"th" 	"คุณถูกระงับไม่ให้ใช้ไอเท็ม"
 	}
 	"status unrestricted"
 	{
-		"th" 	"You are currently unrestricted."
+		"th" 	"คุณไม่ได้ถูกระงับไม่ให้ใช้ไอเท็ม"
 	}
 	"display enabled"
 	{
-		"th" 	"hud ถูกเปิดใช้งานอยู่"
+		"th" 	"แสดงไอเท็มคูลดาวน์ถูกเปิดใช้งานอยู่"
 	}
 	"display disabled"
 	{
-		"th" 	"hud ถูกปิดใช้งานอยู่"
+		"th" 	"แสดงไอเท็มคูลดาวน์ถูกปิดใช้งานอยู่"
 	}
 	"hudpos"
 	{
-		"th" 	"ตำแหน่ง hud ได้บันทึกแล้ว" 
+		"th" 	"ตำแหน่งข้อความแสดงไอเท็มคูลดาวน์ ได้บันทึกแล้ว" 
 	}
 	"hudpos_wrong"
 	{
-		"th" 	"hud position is wrong."
+		"th" 	"ตำแหน่งของข้อความไม่ถูกต้อง"
 	}
 	"hudcolor"
 	{
-		"th" 	"สี hud ได้บันทึกแล้ว"
+		"th" 	"บันทึกสีข้อความแสดงไอเท็มคูลดาวน์แล้ว"
 	}
 	"hudcolor_wrong"
 	{
-		"th" 	"hud color is wrong."
+		"th" 	"สีของข้อความไม่ถูกต้อง"
 	}
 	"restricted"
 	{
-		"th" 	"restricted"
+		"th" 	"ถูกระงับ"
 	}
 	"unrestricted"
 	{
-		"th" 	"unrestricted"
+		"th" 	"ไม่ได้ถูกระงับ"
 	}
 	"entWatch Commands"
 	{
@@ -74,43 +74,43 @@
 	}
 	"List Banned Clients"
 	{
-		"th" 	"รายชื่อผู้ที่ถูกแบน"
+		"th" 	"รายชื่อผู้ที่ถูกระงับในการถือไอเท็ม"
 	}
 	"Ban a Client"
 	{
-		"th" 	"Ban a Client"
+		"th" 	"ระงับผู้เล่น"
 	}
 	"Transfer an item"
 	{
-		"th" 	"Transfer an item"
+		"th" 	"ส่งย้ายไอท็ม"
 	}
 	"Give an Item"
 	{
-		"th" 	"Give an Item"
+		"th" 	"ให้ไอเท็ม"
 	}
 	"Unban a Client"
 	{
-		"th" 	"ปลดแบนผู้เล่น"
+		"th" 	"ปลดระงับผู้เล่น"
 	}
 	"Banned Clients"
 	{
-		"th" 	"ผู้เล่นที่ถูกแบน "
+		"th" 	"ผู้เล่นที่ถูกระงับ"
 	}
 	"No Banned Clients"
 	{
-		"th" 	"ไม่มีผู้เล่นที่ถูกแบน"
+		"th" 	"ไม่มีผู้เล่นที่ถูกระงับ"
 	}
-	"No transferable items current+ly held"
+	"No transferable items currently held"
 	{
-		"th" 	"No transferable items currently held"
+		"th" 	"ไม่มีใครมีไอเท็มที่สามารถส่งย้ายได้ถือไว้อยู่"
 	}
 	"No Give items currently held"
 	{
-		"th" 	"No Give items currently held"
+		"th" 	"ไม่มีใครมีไอเท็มที่สามารถส่งย้ายได้ถือไว้อยู่"
 	}
 	"Item no longer available"
 	{
-		"th" 	"Item no longer available"
+		"th" 	"ไอเท็มไม่พร้อม"
 	}
 	"Item is already picked up"
 	{
@@ -118,27 +118,27 @@
 	}
 	"Transfer iTarget"
 	{
-		"th" 	"Transfer iTarget"
+		"th" 	"ส่งย้ายไปหาเป้าหมาย"
 	}
 	"Give iTarget"
 	{
-		"th" 	"Give iTarget"
+		"th" 	"ให้ไอเท็มกับเป้าหมาย"
 	}
 	"Receiver is not valid anymore"
 	{
-		"th" 	"Receiver is not valid anymore"
+		"th" 	"ชื่อผู้รับไม่ถูกต้อง"
 	}
 	"The receivers team differs from the targets team"
 	{
-		"th" 	"The receivers team differs from the targets team"
+		"th" 	"ผู้รับอยู่ไม่ได้อยู่ในทีมเดียวกับที่ไอเท็มกำหนดไว้"
 	}
 	"transfered all items"
 	{
-		"th" 	"transfered all items from"
+		"th" 	"ย้ายไอเท็มทั้งหมดจาก"
 	}
 	"transfered"
 	{
-		"th" 	"transfered"
+		"th" 	"ย้ายไป"
 	}
 	"tai to"
 	{
@@ -146,11 +146,11 @@
 	}
 	"Item is not valid anymore"
 	{
-		"th" 	"Item is not valid anymore"
+		"th" 	"ตัวไอเท็มไม่ถูกต้อง"
 	}
 	"The receivers team is not CT or TER"
 	{
-		"th" 	"ผูรับไม่ได้อยู่ฝั่ง Human หรือฝั่ง Zombie"
+		"th" 	"ผู้รับไม่ได้อยู่ในทีม หรือเป็นผู้สังเกตุการณ์"
 	}
 	"give item"
 	{
@@ -158,15 +158,15 @@
 	}
 	"Item dont pickable"
 	{
-		"th" 	"Item dont pickable"
+		"th" 	"ไอเท็มนี้หยิบไม่ได้"
 	}
 	"Ban Time for"
 	{
-		"th" 	"Ban Time for"
+		"th" 	"ระงับเป็นเวลา"
 	}
 	"Temporary"
 	{
-		"th" 	"่ชั่วคราว"
+		"th" 	"ชั่วคราว"
 	}
 	"Minutes"
 	{
@@ -194,7 +194,7 @@
 	}
 	"Banned Client"
 	{
-		"th" 	"แบนผู้เล่น"
+		"th" 	"ผู้เล่นที่ถูกระงับ"
 	}
 	"Duration"
 	{
@@ -214,7 +214,7 @@
 	}
 	"Issued on"
 	{
-		"th" 	"Issued on"
+		"th" 	"เหตุผล"
 	}
 	"Admin SID"
 	{
@@ -226,23 +226,23 @@
 	}
 	"is temporarily restricted"
 	{
-		"th" 	"is temporarily restricted"
+		"th" 	"ถูกระงับชั่วคราว"
 	}
 	"is not restricted"
 	{
-		"th" 	"is not restricted"
+		"th" 	"ไม่ได้ถูกระงับ"
 	}
 	"is permanently restricted"
 	{
-		"th" 	"is permanently restricted"
+		"th" 	"ถูกระงับอย่างถาวร"
 	}
 	"is restricted for another"
 	{
-		"th" 	"is restricted for another"
+		"th" 	"ถูกระงับเป็นเวลา"
 	}
 	"cookies havent loaded yet"
 	{
-		"th" 	"ค่าตั่งค่าของคุณไม่ได้ถูกโหลด"
+		"th" 	"ค่าตัวเลือกของคุณไม่ได้ถูกโหลด"
 	}
 	"No players found"
 	{
@@ -250,11 +250,11 @@
 	}
 	"Currently e-banned"
 	{
-		"th" 	"Currently e-banned"
+		"th" 	"ถูกระงับหรือ e-banned"
 	}
 	"Edict targets"
 	{
-		"th" 	"Edict targets"
+		"th" 	"กำหนดเป้าหมาย"
 	}
 	"Target is not valid"
 	{
