@@ -1,0 +1,13 @@
+"Phrases"
+{
+	"Top_Boss_Title"
+	{
+		"en"	"BOSS HIT RANK"
+		"th"	"อันดับผู้เล่นที่ทำดาเมจ BOSS สูงสุด"
+	}
+	"Map_Supported"
+	{
+		"en"	"The current map is supported by this plugin!"
+		"th"	"แผนที่ปัจจุบันรองรับปลั๊กอินตัวนี้!"
+	}
+}
