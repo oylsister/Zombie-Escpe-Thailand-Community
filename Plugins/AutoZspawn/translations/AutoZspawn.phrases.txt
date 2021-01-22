@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"ToggleAutoZspawn"
+	{
+		"en"	"AutoZspawn is now"
+	}
+	"Enabled"
+	{
+		"en"	"{lightgreen}Enabled"
+	}
+	"Disabled"
+	{
+		"en"	"{red}Disabled"
+	}
+	"for you"
+	{
+		"en"	"for you"
+	}
+	"JoinTeam"
+	{
+		"en"	"You are currently"
+	}
+	"Type Again"
+	{
+		"en"	"{default}AutoZspawn. Type {lightgreen}!autozspawn {default}again to toggle the option."
+	}
+}
