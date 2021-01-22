@@ -1,0 +1,39 @@
+"Phrases"
+{
+	"prefix"
+	{
+		"en"	"{green}[NoShake]{default}"
+	}
+	"enabled"
+	{
+		"en"	"has been {lighgreen}Enabled."
+	}
+	"disabled"
+	{
+		"en"	"has been {red}Disabled."
+	}
+	"enable_forall"
+	{
+		"en"	"Enabled no-shake for everyone!"
+	}
+	"disable_forall"
+	{
+		"en"	"Disabled no-shake for everyone!"
+	}
+	"setting_loading"
+	{
+		"en"	"Please wait. Your settings are still loading."
+	}
+	"Noshake"
+	{
+		"en"	"NoShake"
+	}
+	"Enable"
+	{
+		"en"	"Enabled"
+	}
+	"Disable"	
+	{
+		"en"	Disabled"
+	}
+}
