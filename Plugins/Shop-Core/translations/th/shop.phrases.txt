@@ -1,0 +1,504 @@
+"Phrases"
+{
+	"NoAccessToCommand"
+	{
+		"th"		"{green}[Shop]{default} คุณไม่มีสิทธิ์เข้าถึงฟีเจอร์นี้!"
+	}
+
+	"TargetNotFound"
+	{
+		"#format"   "{1:s}"
+		"th"		"{green}[Shop]{default} ไม่พบเป้าหมาย {green}{1}{default}"
+	}
+
+	"select_target"
+	{
+		"th"		"เลือกผู้เล่น:"
+	}
+
+	"select_category"
+	{
+		"th"		"เลือกประเภท:"
+	}
+
+	"select_item"
+	{
+		"th"		"เลือกไอเท็ม:"
+	}
+
+	"no_targets"
+	{
+		"th"		"{green}[Shop]{default} ไม่พบเป้าหมาย"
+	}
+
+	"target_left_game"
+	{
+		"th"		"{green}[Shop]{default} ผู้เล่นออกจากเกมส์ไปแล้ว"
+	}
+
+	"trans_credits_operation"
+	{
+		"th"		"พิมพ์จำนวนเครดิตที่ต้องการโอนย้ายลงในช่องแชทหรือพิมพ์  \"cancel\" เพื่อต้องการยกเลิก"
+	}
+
+	"TransferSuccess"
+	{
+		"#format"   "{1:i},{2:N}"
+		"th"		"{green}[Shop]{default} คุณได้ส่งเครดิตจำนวน {green}{1}{default} เครดิต ให้กับผู้เล่น {green}{2}{default} ได้สำเร็จ!"
+	}
+
+	"ReceiveSuccess"
+	{
+		"#format"   "{1:i},{2:N}"
+		"th"		"{green}[Shop]{default} คุณได้รับเครดิตจำนวน {green}{1}{default} เครดิต จากผู้เล่น {green}{2}{default}!"
+	}
+
+	"ReceiveCommission"
+	{
+		"#format"	"{1:i}"
+		"th"		"{green}[Shop]{default} ค่าธรรมเนียมที่ถูกหัก: {green}{1} {default}เครดิต"
+	}
+
+	"receive_item"
+	{
+		"#format"   "{1:N},{2:s},{3:s}"
+		"th"		"{green}[Shop]{default} คุณได้รับไอเท็ม {green}\"{3}\"{default} ซึ่งถูกส่งเข้าไปในคลัง {green}\"{2}\"{default} จากผู้เล่น {green}{1}{default}!"
+	}
+
+	"already_has"
+	{
+		"#format"   "{1:N}"
+		"th"		"{green}[Shop]{default} ผู้เล่น {green}{1}{default} มีไอเท็มนี้อยู่แล้ว!"
+	}
+
+	"no_item"
+	{
+		"th"		"{green}[Shop]{default} ไอเท็มไม่ได้อยู่ในคลังของคุณ!"
+	}
+
+	"IncorrectCredits"
+	{
+		"th"		"จำนวนเครดิตไม่ถูกต้อง!"
+	}
+
+	"credits_being_transfered"
+	{
+		"#format"   "{1:i}"
+		"th"		"จำนวนเครดิต: {1}"
+	}
+
+	"credits_to_transfer"
+	{
+		"#format"   "{1:i}"
+		"th"		"จะถูกโอนไป: {1}"
+	}
+
+	"credits_to_transfer_price"
+	{
+		"#format"   "{1:i}"
+		"th"		"ค่าโอน: {1}"
+	}
+
+	"credits_to_transfer_commission"
+	{
+		"#format"   "{1:i}"
+		"th"		"ค่าธรรมเนียม : {1} credits"
+	}
+
+	"transfer_credits_left"
+	{
+		"#format"   "{1:i}"
+		"th"		"คงเหลือ: {1}"
+	}
+
+	"need_positive"
+	{
+		"#format"   "{1:i}"
+		"th"		"เครดิตขั้นต่ำที่ต้องการ: {1} เครดิต"
+	}
+
+	"confirm"
+	{
+		"th"		"ยืนยัน"
+	}
+
+	"cancel"
+	{
+		"th"		"ยกเลิก"
+	}
+
+	"transfer"
+	{
+		"th"		"โอน"
+	}
+
+	"ItemTransferMenu"
+	{
+		"th"		"โอนไอเท็ม"
+	}
+
+	"ItemTransferMenu2"
+	{
+		"#format"   "{1:N}"
+		"th"		"โอนไอเท็ม\nไปยัง {1}"
+	}
+
+	"give_credits"
+	{
+		"th"		"ให้เครดิต"
+	}
+
+	"take_credits"
+	{
+		"th"		"ลบเครดิต"
+	}
+
+	"set_credits"
+	{
+		"th"		"ตั้งเครดิต"
+	}
+
+	"give_items"
+	{
+		"th"		"ให้ไอเท็ม"
+	}
+
+	"take_items"
+	{
+		"th"		"ลบไอเท็ม"
+	}
+
+	"give_item_success"
+	{
+		"th"		"{green}[Shop]{default} คุณได้ทำการส่งไอเท็มไปยังผู้เล่นได้สำเร็จ!"
+	}
+
+	"take_item_success"
+	{
+		"th"		"{green}[Shop]{default} คุณได้ทำการลบไอเท็มจากผู้เล่นได้สำเร็จ!"
+	}
+
+	"give_credits_success"
+	{
+		"#format"   "{1:i},{2:s}"
+		"th"		"{green}[Shop]{default} ส่งเครดิตจำนวน {1} เครดิต ไปยังผู่เล่น {green}{2}{default} ได้สำเร็จ!"
+	}
+
+	"remove_credits_success"
+	{
+		"#format"   "{1:i},{2:s}"
+		"th"		"{green}[Shop]{default} ลบเครดิตจำนวน {1} เครดิต จากผู้เล่น {green}{2}{default} ได้สำเร็จ!"
+	}
+
+	"set_credits_success"
+	{
+		"#format"   "{1:i},{2:s}"
+		"th"		"{green}[Shop]{default} ตั้งเครดิตจำนวน {1} เครดิต ให้กับผู้เล่น {green}{2}{default} ได้สำเร็จ!"
+	}
+
+	"set_you_credits"
+	{
+		"#format"   "{1:i}"
+		"th"		"{green}[Shop]{default} แอดมินได้ตั้งเครดิตให้คุณเป็นจำนวน {green}{1}{default} เครดิต!"
+	}
+
+	"take_you_credits"
+	{
+		"#format"   "{1:i}"
+		"th"		"{green}[Shop]{default} แอดมินได้ลบเครดิตไปจากคุณเป็นจำนวน {green}{1}{default} เครดิต!"
+	}
+
+	"give_you_credits"
+	{
+		"#format"   "{1:i}"
+		"th"		"{green}[Shop]{default} แอดมินได้ส่งเครดิตมาให้คุณเป็นจำนวน {green}{1}{default} เครดิต!"
+	}
+
+	"EmptyInventory"
+	{
+		"th"		"{green}[Shop]{default} คลังของคุณยังไม่มีของ!"
+	}
+
+	"EmptyShop"
+	{
+		"th"		"{green}[Shop]{default} ร้านค้าตอนนี้ยังไม่มีของ"
+	}
+
+	"EmptyCategory"
+	{
+		"th"		"{green}[Shop]{default} Category ยังไม่มี!"
+	}
+
+	"NothingToLuck"
+	{
+		"th"		"{green}[Shop]{default} ตอนนี้ยังไม่มีไอเท็มอะไรให้คุณสำหรับการเสี่ยงโชค"
+	}
+
+	"Looser"
+	{
+		"th"		"{green}[Shop]{default} คุณไม่ได้อะไรกลับมาจากการเสี่ยงโชค "
+	}
+
+	"Lucker"
+	{
+		"#format"   "{1:s},{2:s}"
+		"th"		"{green}[Shop]{default} คุณได้รับไอเท็ม {green}\"{2}\"{default} ซึ่งถูกส่งเข้าไปในคลัง {green}\"{1}\"{default} จากการเสี่ยงโชค"
+	}
+
+	"ItemElapsed"
+	{
+		"#format"   "{1:s},{2:s}"
+		"th"		"{green}[Shop]{default} ไอเท็ม {green}\"{2}\"{default} ในคลัง {green}\"{1}\"{default} ของคุณหมดอายุแล้ว"
+	}
+
+	"trans_credits"
+	{
+		"th"		"โอนย้ายเครดิต"
+	}
+
+	"trans_credits_commision"
+	{
+		"#format"   "{1:i}"
+		"th"		"[ค่าธรรมเนียม: {1}%%]"
+	}
+
+	"trans_credits_cost"
+	{
+		"#format"   "{1:i}"
+		"th"		"[ราคา: {1}]"
+	}
+
+	"trans_credits_disabled"
+	{
+		"th"		"[ถูกปิดไว้]"
+	}
+
+	"luck_disabled"
+	{
+		"th"		"[ถูกปิดไว้]"
+	}
+
+	"try_luck"
+	{
+		"th"		"ลองเสี่ยงโชค"
+	}
+
+	"luck_credits_chance"
+	{
+		"#format"   "{1:i},{2:i}"
+		"th"		"[โอกาส: {2}%%|ราคา: {1}]"
+	}
+
+	"Type"
+	{
+		"th"		"ประเภท"
+	}
+
+	"None"
+	{
+		"th"		"ไม่มี"
+	}
+
+	"Finite"
+	{
+		"th"		"มีจำกัด"
+	}
+
+	"Togglable"
+	{
+		"th"		"สามารถสวมได้"
+	}
+
+	"BuyOnly"
+	{
+		"th"		"ซื้อเท่านั้น"
+	}
+
+	"Price"
+	{
+		"th"		"ราคา"
+	}
+
+	"Sell Price"
+	{
+		"th"		"ราคาขาย"
+	}
+
+	"absolute_sellprice"
+	{
+		"th"		"ราคาขายตามเวลาที่เหลือ"
+	}
+
+	"Free"
+	{
+		"th"		"ฟรี"
+	}
+
+	"Unsaleable"
+	{
+		"th"		"ขายไม่ได้"
+	}
+
+	"Count"
+	{
+		"th"		"จำนวนครั้ง"
+	}
+
+	"duration"
+	{
+		"th"		"ระยะเวลา"
+	}
+
+	"forever"
+	{
+		"th"		"ถาวร"
+	}
+
+	"timeleft"
+	{
+		"th"		"เวลาเหลือ"
+	}
+
+	"You have"
+	{
+		"th"		"คุณมี"
+	}
+
+	"MainMenuTitle"
+	{
+		"th"		"Shop - ร้านค้า"
+	}
+
+	"Shop"
+	{
+		"th"		"Shop"
+	}
+
+	"credits"
+	{
+		"#format"   "{1:i}"
+		"th"		"เครดิต: {1}"
+	}
+
+	"buy"
+	{
+		"th"		"ซื้อ"
+	}
+
+	"buy_not"
+	{
+		"th"		"ซื้อ [เครดิตไม่พอ]"
+	}
+
+	"sell"
+	{
+		"th"		"ขาย"
+	}
+
+	"inventory"
+	{
+		"th"		"คลังสินค้า"
+	}
+
+	"use"
+	{
+		"th"		"ใช้"
+	}
+
+	"ToggleOn"
+	{
+		"th"		"เปิดใช้งาน"
+	}
+
+	"ToggleOff"
+	{
+		"th"		"ปิดใช้งาน"
+	}
+
+	"preview"
+	{
+		"th"		"Preview"
+	}
+
+	"preview_unavailable"
+	{
+		"th"		"Preview ไม่พร้อม"
+	}
+
+	"functions"
+	{
+		"th"		"ฟังก์ชั่น"
+	}
+
+	"info"
+	{
+		"th"		"ข้อมูล"
+	}
+
+	"admin_panel"
+	{
+		"th"		"หน้าต่างสำหรับ Admin"
+	}
+
+	"Back"
+	{
+		"th"		"กลับ"
+	}
+
+	"Exit"
+	{
+		"th"		"ออก"
+	}
+	
+	"NotEnoughCredits"
+	{
+		"th"		"{green}[Shop] {default}เครดิตไม่เพียงพอ!"
+	}
+
+	"PreviewIn"
+	{
+		"#format"   "{1:i}"
+		"th"		"{green}[Shop] {default}Preview จะพร้อมใช้งานใน {1} วินาที!"
+	}
+
+	"DataLoaded"
+	{
+		"#format"   "{1:s}"
+		"th"		"{green}[Shop] {default}ข้อมูลร้านค้าของคุณถูกโหลดโดยสมบูรณ์ พิมพ์ {green}!{1}{default} เพื่อเปิดดูร้านค้า"
+	}
+
+	"DataLoaded2"
+	{
+		"th"		"{green}[Shop] {default}ข้อมูลร้านค้าของคุณถูกโหลดโดยสมบูรณ์ "
+	}
+
+	"DataLoading"
+	{
+		"th"		"{green}[Shop] {default}ข้อมูลร้านค้าของคุณถูกโหลดอยู่ "
+	}
+
+	"y."
+	{
+		"th"		"ปี"
+	}
+
+	"d."
+	{
+		"th"		"วัน"
+	}
+
+	"h."
+	{
+		"th"		"ชั่วโมง"
+	}
+
+	"m."
+	{
+		"th"		"นาที"
+	}
+
+	"s."
+	{
+		"th"		"วินาที"
+	}
+}
