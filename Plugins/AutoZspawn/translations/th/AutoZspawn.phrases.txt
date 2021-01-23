@@ -1,0 +1,27 @@
+"Phrases"
+{
+	"ToggleAutoZspawn"
+	{
+		"en"	"AutoZspawn"
+	}
+	"Enabled"
+	{
+		"en"	"{lightgreen}ถูกเปิด"
+	}
+	"Disabled"
+	{
+		"en"	"{red}ถูกปิด"
+	}
+	"for you"
+	{
+		"en"	"เป็นที่เรียบร้อยแล้ว"
+	}
+	"JoinTeam"
+	{
+		"en"	"ตอนนี้ AutoZspawn ของคุณ"
+	}
+	"Type Again"
+	{
+		"en"	"{default}พิมพ์ {lightgreen}!autozspawn {default}อีกครั้งเพื่อเปลี่ยนค่า"
+	}
+}
