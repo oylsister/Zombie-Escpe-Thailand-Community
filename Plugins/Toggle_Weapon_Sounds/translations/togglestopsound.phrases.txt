@@ -1,0 +1,39 @@
+"Phrases"
+{
+	"prefix"
+	{
+		"en"	"{green}[StopSound]{default}"
+	}
+	"StopSound_Title"
+	{
+		"en"	"Toggle Stop Weapon Sound (!stopsound)"
+	}
+	"Disable"
+	{
+		"en"	"Disable"
+	}
+	"Stop Sound"
+	{
+		"en"	"Stop Sound"
+	}
+	"Replace to Silenced Sound"
+	{
+		"en"	"Replace to Silenced Sound"
+	}
+	"stop weapon sounds"
+	{
+		"en"	"stop weapon sounds"
+	}
+	"Enabled"
+	{
+		"en"	"Enabled"
+	}
+	"Disabled"	
+	{
+		"en"	"Disabled"
+	}
+	"Loading_Cookies"
+	{
+		"en"	"Your Cookies are not yet cached. Please try again later..."
+	}
+}

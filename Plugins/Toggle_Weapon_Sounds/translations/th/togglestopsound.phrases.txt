@@ -1,0 +1,39 @@
+"Phrases"
+{
+	"prefix"
+	{
+		"en"	"{green}[ปิดเสียงปืน]{default}"
+	}
+	"StopSound_Title"
+	{
+		"en"	"ตำวเลือกปิดเสียงปืน (!stopsound)"
+	}
+	"Disable"
+	{
+		"en"	"เปิดตามปกติ"
+	}
+	"Stop Sound"
+	{
+		"en"	"ปิดเสียงปืน"
+	}
+	"Replace to Silenced Sound"
+	{
+		"en"	"เปลี่ยนเป็นเสียงปืนที่เก็บเสียง"
+	}
+	"stop weapon sounds"
+	{
+		"en"	"เปลี่ยนตั้งค่าเป็น"
+	}
+	"Enabled"
+	{
+		"en"	"ปิดเสียงปืน"
+	}
+	"Disabled"	
+	{
+		"en"	"เปิดเสียงปืน"
+	}
+	"Loading_Cookies"
+	{
+		"en"	"ค่าตัวเลือกของคุณยังไม่ถูกโหลด กรุณารอสักครู่"
+	}
+}
