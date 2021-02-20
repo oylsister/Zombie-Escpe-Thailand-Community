@@ -159,6 +159,7 @@ public APLRes AskPluginLoad2(Handle hThis, bool bLate, char[] sError, int iErr_m
 	CreateNative("entWatch_UnbanClient", Native_UnbanClient);
 	CreateNative("entWatch_IsSpecialItem", Native_IsSpecialItem);
 	CreateNative("entWatch_HasSpecialItem", Native_HasSpecialItem);
+	CreateNative("entWatch_IsMapHasConfig", Native_IsMapHasConfig);
 
 	RegPluginLibrary("entWatch");
 
@@ -2606,6 +2607,15 @@ public int Native_HasSpecialItem(Handle hPlugin, int iArgC)
 	}
 
 	return false;
+}
+
+public int Native_IsMapHasConfig(Handle hPlugin, int iArgC)
+{
+	if (g_bConfigLoaded) 
+		return true;
+
+	else 
+		return false;
 }
 
 stock void FixedEquipPlayerWeapon(int iClient, int iWeapon)

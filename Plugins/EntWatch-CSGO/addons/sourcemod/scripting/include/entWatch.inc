@@ -72,6 +72,14 @@ forward entWatch_OnClientBanned(admin, iLenght, client);
  */
 forward entWatch_OnClientUnbanned(admin, client);
 
+/**
+ * Checks if the map is supported by this plugin or not.
+ *
+ * @param map			Map Name to check
+ * @return				True if config is loaded, false otherwise
+ */
+native bool:entWatch_IsMapHasConfig(const String:map[]);
+
 //----------------------------------------------------------------------------------------------------
 // Purpose: SMLib
 //----------------------------------------------------------------------------------------------------
