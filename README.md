@@ -15,6 +15,9 @@ Source code for sourcemod plugin with thai translation by Oylsister. Most of the
 8. Boss Hit Rank (100%) https://github.com/KoreanDude/csgo-ze-plugins/tree/master/Boss%20Hit%20Rank
 9. Noshake (100%) https://github.com/IT-KiLLER/ze-plugins/tree/master/NoShake/scripting
 
+## ปลั๊กอินอื่นๆ
+1. HUDLimitIncrease https://forums.alliedmods.net/showthread.php?t=314962
+
 ## วิธีการ Compile ปลั๊กอิน
 1. ดาวน์โหลด Soucemod เวอร์ชั่นใดๆก็ได้ (แนะนำ 1.10) แล้วแตกไฟล์ออกมา 
 2. นำไฟล์ .sp และ .inc ที่จำเป็นไปยังโฟล์เดอร์ addons/sourcemod/scripting
