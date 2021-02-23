@@ -1,0 +1,28 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Offsets"
+		{
+			"OnDamagedByExplosion"
+			{
+				"windows"	"335"
+				"linux"		"336"
+				"mac"		"336"
+			}
+		}
+	}
+	"csgo"
+	{
+		"Offsets"
+		{
+			"OnDamagedByExplosion"
+			{
+				"windows"	"375"
+				"linux"		"376"
+				"mac"		"376"
+			}
+		}
+	}
+
+}

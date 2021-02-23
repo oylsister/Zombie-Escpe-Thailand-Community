@@ -1,0 +1,28 @@
+"Games"
+{
+	"cstrike"
+	{
+		"Offsets"
+		{
+			"RadiusDamage"
+			{
+				"windows"	"68"
+				"linux"		"69"
+				"mac"		"69"
+			}
+		}
+	}
+	
+	"csgo"
+	{
+		"Offsets"
+		{
+			"RadiusDamage"
+			{
+				"windows"	"68"
+				"linux"		"69"
+				"mac"		"69"
+			}
+		}
+	}
+}
