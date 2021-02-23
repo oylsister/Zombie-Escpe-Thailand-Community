@@ -14,6 +14,7 @@ Source code for sourcemod plugin with thai translation by Oylsister. Most of the
 7. Toggle Weapon Sounds (100%) https://hlmod.ru/threads/csgo-stopsound-s-zamenoj-obschego-zvuka-strelby-na-ehmochnyj-tixij.45051/#post-360803
 8. Boss Hit Rank (100%) https://github.com/KoreanDude/csgo-ze-plugins/tree/master/Boss%20Hit%20Rank
 9. Noshake (100%) https://github.com/IT-KiLLER/ze-plugins/tree/master/NoShake/scripting
+10. MapChooser-Extended (100%) https://github.com/oylsister/mapchooser-extended
 
 ## ปลั๊กอินอื่นๆ
 1. HUDLimitIncrease - เพิ่มขีดจำกัดในการแสดงค่า HP และกระสุน https://forums.alliedmods.net/showthread.php?t=314962
