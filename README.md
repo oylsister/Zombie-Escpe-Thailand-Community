@@ -18,6 +18,9 @@ Source code for sourcemod plugin with thai translation by Oylsister. Most of the
 
 ## ปลั๊กอินอื่นๆ
 1. HUDLimitIncrease - เพิ่มขีดจำกัดในการแสดงค่า HP และกระสุน https://forums.alliedmods.net/showthread.php?t=314962
+2. NapalmLagFix - แก้ระเบิดแลคในเซิร์ฟเวอร์ (รองรับ CS:GO) https://forums.alliedmods.net/showthread.php?p=1733702
+3. NoGrenadeRinging - ลบเสียงวิ้งเวลาระเบิดมือลงใกล้ https://github.com/IT-KiLLER/ze-plugins/tree/master/NoGrenadeRinging
+4. WeaponCleaner - ลบปืนที่ถูกทิ้งไว้ในแผนที่เมื่อเวลาผ่านไป https://gogs.botox.bz/CSSZombieEscape/sm-plugins/src/master/WeaponCleaner
 
 ## วิธีการ Compile ปลั๊กอิน
 1. ดาวน์โหลด Soucemod เวอร์ชั่นใดๆก็ได้ (แนะนำ 1.10) แล้วแตกไฟล์ออกมา 
