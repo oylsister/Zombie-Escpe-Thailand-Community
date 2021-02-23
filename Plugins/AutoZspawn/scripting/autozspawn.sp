@@ -58,7 +58,7 @@ public Action ToggleAutoZspawn(int client, int args)
 {
 	g_autozspawn[client] = !g_autozspawn[client];
 	//CPrintToChat(client, "{green}[ZR] {default}AutoZspawn is now %s {default}for you.", g_autozspawn[client] ? "{lightgreen}Enabled" : "{red}Disabled");
-	CPrintToChat(client, "{green}[ZR]{default} %T %T {defualt}%T", "ToggleAutoZspawn", g_autozspawn[client] ? "Enabled" : "Disabled", "for you");
+	CPrintToChat(client, "{green}[ZR]{default} %t %t {defualt}%t", "ToggleAutoZspawn", g_autozspawn[client] ? "Enabled" : "Disabled", "for you");
 
 	char sCookie[4];
     	FormatEx(sCookie, sizeof(sCookie), "%b", g_autozspawn[client]);
@@ -81,7 +81,7 @@ public Action Event_OnPlayerTeam(Handle event, const char[] name, bool dontBroad
 			return Plugin_Continue;
 
 		//CPrintToChat(client, "{green}[ZR] {default}You are currently %s {default}AutoZspawn. Type {lightgreen}!autozspawn {default}again to toggle the option.", g_autozspawn[client] ? "{lightgreen}Enabled" : "{red}Disabled");
-		CPrintToChat(client, "{green}[ZR]{default} %T %T {default}%T, "JoinTeam", g_autozspawn[client] ? "Enabled" : "Disabled", "TypeAgain");
+		CPrintToChat(client, "{green}[ZR]{default} %t %t {default}%t, "JoinTeam", g_autozspawn[client] ? "Enabled" : "Disabled", "TypeAgain");
         }
     	return Plugin_Continue;
 }

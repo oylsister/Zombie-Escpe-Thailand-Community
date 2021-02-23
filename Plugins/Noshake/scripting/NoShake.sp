@@ -49,11 +49,11 @@ public void OnConVarChanged(ConVar convar, const char[] oldValue, const char[] n
 {
 	if(StringToInt(newValue) > StringToInt(oldValue))
 		//CPrintToChatAll("{green}[{lime}NoShake{green}] {default}Enabled no-shake for everyone!");
-		CPrintToChatAll("%T %T", "prefix", "enable_forall");
+		CPrintToChatAll("%t %t", "prefix", "enable_forall");
 
 	else if(StringToInt(newValue) < StringToInt(oldValue))
 		//CPrintToChatAll("{green}[{lime}NoShake{green}] {default}Disabled no-shake for everyone!");
-		CPrintToChatAll("%T %T", "prefix", "disable_forall");
+		CPrintToChatAll("%t %t", "prefix", "disable_forall");
 
 	g_bNoShakeGlobal = StringToInt(newValue) != 0;
 }
@@ -74,7 +74,7 @@ public Action Command_Shake(int client, int args)
 	if(!AreClientCookiesCached(client))
 	{
 		//CPrintToChat(client, "{green}[{lime}NoShake{green}] {default}Please wait. Your settings are still loading.");
-		CPrintToChat(client, "%T %T", "prefix", "setting_loading");
+		CPrintToChat(client, "%t %t", "prefix", "setting_loading");
 		return Plugin_Handled;
 	}
 
@@ -82,13 +82,13 @@ public Action Command_Shake(int client, int args)
 	{
 		g_bNoShake[client] = false;
 		//CPrintToChat(client, "{green}[{lime}NoShake{green}] {default}has been {orange}disabled!", "prefix", "disabled");
-		CPrintToChat(client, "%T %T", "prefix", "disabled");
+		CPrintToChat(client, "%t %t", "prefix", "disabled");
 	}
 	else
 	{
 		g_bNoShake[client] = true;
 		//CPrintToChat(client, "{green}[{lime}NoShake{green}] {default}has been {orange}enabled!", "prefix", "enabled");
-		CPrintToChat(client, "%T %T", "prefix", "enabled");
+		CPrintToChat(client, "%t %t", "prefix", "enabled");
 	}
 
 	static char sCookieValue[2];
@@ -113,10 +113,10 @@ public int NoShakeMenu_Handler(Menu menu, MenuAction action, int client, int par
             		g_bNoShake[client] = !g_bNoShake[client];
             
             		if(g_bNoShake[client] == true)
-            			CPrintToChat(client, "%T %T", "prefix", "enabled");
+            			CPrintToChat(client, "%t %t", "prefix", "enabled");
             	
            		if(g_bNoShake[client] == false)
-            			CPrintToChat(client, "%T %T", "prefix", "disabled");
+            			CPrintToChat(client, "%t %t", "prefix", "disabled");
         	}
 
 		static char sCookieValue[2];
@@ -136,10 +136,10 @@ public Action NoShakeMenu(int client, int args)
 {
 	Menu menu = new Menu(NoShakeMenu_Handler, MENU_ACTIONS_DEFAULT);
 	//menu.SetTitle("[BossHP] Toggle Showing BossHP and BHud\n");
-	menu.SetTitle("%T \n", "NoShake_Menu_Title");
+	menu.SetTitle("%t \n", "NoShake_Menu_Title");
 
 	char sTemp[32];
-	FormatEx(sTemp, sizeof(sTemp), "%T: %T", "Noshake", g_bNoShake[client] ? "Enable" : "Disable");
+	FormatEx(sTemp, sizeof(sTemp), "%t: %t", "Noshake", g_bNoShake[client] ? "Enable" : "Disable");
 	menu.AddItem("bNoShake", sTemp);
     
 	menu.ExitBackButton = true;
