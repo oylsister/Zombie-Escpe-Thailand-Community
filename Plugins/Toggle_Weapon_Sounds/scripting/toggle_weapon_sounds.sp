@@ -91,9 +91,17 @@ void PrepareMenu(int client)
         Handle menu = CreateMenu(YesNoMenu, MENU_ACTIONS_DEFAULT|MenuAction_DrawItem|MenuAction_DisplayItem|MenuAction_Display);
 
         SetMenuTitle(menu, "%t\n ", "StopSound_Title");
-        AddMenuItem(menu, "0", "Disable");
-        AddMenuItem(menu, "1", "Stop Sound");
-        AddMenuItem(menu, "2", "Replace to Silenced Sound");
+
+	char sTemp[256];
+	FormatEx(sTemp, sizeof(sTemp), "%t", "Disable");
+        AddMenuItem(menu, "0", sTemp);
+
+	FormatEx(sTemp, sizeof(sTemp), "%t", "Stop Sound");
+        AddMenuItem(menu, "1", sTemp);
+
+	FormatEx(sTemp, sizeof(sTemp), "%t", "Replace to Silenced Sound");
+        AddMenuItem(menu, "2", sTemp);
+
         SetMenuExitBackButton(menu, true);
         DisplayMenu(menu, client, 20);
 }
@@ -112,17 +120,17 @@ public int YesNoMenu(Handle menu, MenuAction action, int param1, int param2)
 				if(StringToInt(info) == 2) 
 				{
 					g_bReplaceSilence[param1] = true;
-					CReplyToCommand(param1, "%T %T {lightgreen}%T{default}.", "prefix", "stop weapon sounds", "Replace to Silenced Sound");
+					CReplyToCommand(param1, "%t %t {lightgreen}%t{default}.", "prefix", "stop weapon sounds", "Replace to Silenced Sound");
 				}
 				else if (StringToInt(info) == 1) 
 				{
 					g_bReplaceSilence[param1] = false;
-					CReplyToCommand(param1, "%T %T {lightgreen}%T{default}.", "prefix", "stop weapon sounds", "Enabled");
+					CReplyToCommand(param1, "%t %t {lightgreen}%t{default}.", "prefix", "stop weapon sounds", "Enabled");
 				}
 				else
 				{
 					g_bReplaceSilence[param1] = false;
-					CReplyToCommand(param1, "%T %T {lightgreen}%T{default}.", "prefix", "stop weapon sounds", "Disabled");
+					CReplyToCommand(param1, "%t %t {lightgreen}%t{default}.", "prefix", "stop weapon sounds", "Disabled");
 				}
 				CheckHooks();
 				PrepareMenu(param1);
@@ -165,7 +173,7 @@ public Action Command_StopSound(int client, int args)
 	else
         {
                 //ReplyToCommand(client, "[SM] Your Cookies are not yet cached. Please try again later...");
-		CReplyToCommand(client, "%T %T", "prefix", "Loading_Cookies");
+		CReplyToCommand(client, "%t %t", "prefix", "Loading_Cookies");
 	}
 	return Plugin_Handled;
 }
