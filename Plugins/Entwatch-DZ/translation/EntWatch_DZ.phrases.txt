@@ -1,0 +1,452 @@
+"Phrases"
+{
+	"EW_Tag"
+	{
+		"th" 	"[EntWatch]"
+	}
+	"Welcome"
+	{
+		"th" 	" แผนที่ปัจจุบันได้รับการรองรับโดยปลั๊กอินนี้ ไอเท็มจะแสดงขึ้นบนทั้งหน้าจอผู้เล่นและสกอร์บอร์ด [TAB] ของผู้เล่น"
+	}
+	"Use"
+	{
+		"th" 	"ใช้ไอเท็ม"
+	}
+	"Pickup"
+	{
+		"th" 	"ได้ใช้ไอเท็ม"
+	}
+	"Drop"
+	{
+		"th" 	"ได้ทิ้งไอเท็ม"
+	}
+	"Death"
+	{
+		"th" 	"ได้ตายพร้อมกับไอเท็ม"
+	}
+	"Death and drop"
+	{
+		"th" 	"ได้ตายพร้อมและทิ้งไอเท็ม"
+	}
+	"Disconnect"
+	{
+		"th" 	"ได้ออกจากเกมส์พร้อมกับไอเท็ม"
+	}
+	"Disconnect and drop"
+	{
+		"th" 	"ได้ออกจากเกมส์พร้อมแลทิ้งไอเท็ม"
+	}
+	"Enabled"
+	{
+		"th" 	"ถูกเปิดแล้ว"
+	}
+	"Disabled"
+	{
+		"th" 	"ถูกปิดแล้ว"
+	}
+	"Hud"
+	{
+		"th" 	"แสดงไอเท็มบนจอ (HUD)"
+	}
+	"Hud Position"
+	{
+		"th" 	"ตำแหน่งของ HUD"
+	}
+	"Hud Color"
+	{
+		"th" 	"สีของ HUD"
+	}
+	"Wrong"
+	{
+		"th" 	"ผิด"
+	}
+	"Saved"
+	{
+		"th" 	"ถูกบันทึกแล้ว"
+	}
+	"Usage"
+	{
+		"th" 	"วิธีใช้"
+	}
+	"Restricted"
+	{
+		"th" 	"ระงับการใช้ไอเท็มผู้เล่น"
+	}
+	"Unrestricted"
+	{
+		"th" 	"ปลดระงับการใช้ไอเท็มผู้เล่น"
+	}
+	"Duration"
+	{
+		"th" 	"ระยะเวลา"
+	}
+	"EBan Duration for"
+	{
+		"th" 	"EBan เป็นระยะเวลา"
+	}
+	"EBan Reason for"
+	{
+		"th" 	"สาเหตุการ EBan"
+	}
+	"Temporary"
+	{
+		"th" 	"ชั่วคราว"
+	}
+	"Permanently"
+	{
+		"th" 	"ถาวร"
+	}
+	"For Minutes"
+	{
+		"#format"	"{1:i}"
+		"th" 	"เป็นเวลา {1} นาที"
+	}
+	"Issued"
+	{
+		"th" 	"Issued"
+	}
+	"Reason"
+	{
+		"th" 	"เหตุผล"
+	}
+	"Currently Eban"
+	{
+		"th" 	"ถูกระงับการใช้ไอเท็มอยุ่ (e-banned)"
+	}
+	"Player"
+	{
+		"th" 	"ผู้เล่น"
+	}
+	"Admin"
+	{
+		"th" 	"แอดมิน"
+	}
+	"No EBans"
+	{
+		"th" 	"ไม่มี Eban"
+	}
+	"No owner"
+	{
+		"th" 	"ไม่มีเจ้าของ"
+	}
+	"No Receivers"
+	{
+		"th" 	"ไม่มีผู้รับ"
+	}
+	"No Players"
+	{
+		"th" 	"ไม่มีผู้เล่น"
+	}
+	"Already EBanned"
+	{
+		"th" 	"ถูกระงับไปแล้ว (EBanned)"
+	}
+	"Already UnEBanned"
+	{
+		"th" 	"ถูกปลดระงับไปแล้ว (UnEBanned)"
+	}
+	"Restricted By"
+	{
+		"th" 	"ถูกระงับโดย"
+	}
+	"Invalid item name"
+	{
+		"th" 	"ชื่อไอเท็มไม่ถูกต้อง"
+	}
+	"Has a Restrict"
+	{
+		"th" 	"ถูกระงับการใช้ไอเท็มอยู่"
+	}
+	"Transfered all items"
+	{
+		"th" 	"โอนย้ายไอเท็มทั้งหมดจาก"
+	}
+	"Transfered"
+	{
+		"th" 	"โอนย้ายไอเท็ม"
+	}
+	"Differs team"
+	{
+		"th" 	"ผู้รับอยู่ทีมฝั่งตรงข้าม"
+	}
+	"Already owns"
+	{
+		"th" 	"ผู้รับมีไอเท็มนี้อยู่แล้ว"
+	}
+	"Target has no items"
+	{
+		"th" 	"เป้าหมายไม่มีไอเท็มครอบครองไว้"
+	}
+	"EW to"
+	{
+		"th" 	"ไปยัง"
+	}
+	"Item targets"
+	{
+		"th" 	"ไอเท็มเป้าหมาย"
+	}
+	"Item to Spawn"
+	{
+		"th" 	"ไอเท็มที่จะถูก Spawn"
+	}
+	"Player is not valid anymore"
+	{
+		"th" 	"ผู้เล่นไม่ถูกต้องหรือไม่ได้อยู่ในเกมส์แล้ว"
+	}
+	"Receiver is not valid anymore"
+	{
+		"th" 	"ผู้รับไม่ถูกต้องหรือไม่ได้อยู่ในเกมส์แล้ว"
+	}
+	"The player must be in one of the teams"
+	{
+		"th" 	"ผู้เล่นจะต้องอยู่ในทีมใดทีมหนึ่ง"
+	}
+	"PT configuration not found"
+	{
+		"th" 	"ไอเท็มไม่สอดคล้องกับที่กำหนดค่าในไฟล์ Config"
+	}
+	"PT configuration Error"
+	{
+		"th" 	"ไม่พบ Point_Template"
+	}
+	"Item not available"
+	{
+		"th" 	"ไอเท็มไม่พร้อมใช้งานอีกต่อไป"
+	}
+	"EntWatch Commands"
+	{
+		"th" 	"คำสั่ง EntWatch"
+	}
+	"EntWatch Commands Title"
+	{
+		"th" 	"[EntWatch] ชุดคำสั่ง"
+	}
+	"List of Items"
+	{
+		"th" 	"รายชื่อของไอเท็ม"
+	}
+	"EBan a Player"
+	{
+		"th" 	"EBan ผู้เล่น"
+	}
+	"List of EBan"
+	{
+		"th" 	"รายชื่อผู้เล่นที่ถูก EBan"
+	}
+	"Spawn an Item"
+	{
+		"th" 	"Spawn ไอเท็ม"
+	}
+	"Restrict Player"
+	{
+		"th" 	"ระงับการใช้ไอเท็มผู้เล่น"
+	}
+	"EBan Info"
+	{
+		"th" 	"ข้อมูล EBan"
+	}
+	"Transfer Item"
+	{
+		"th" 	"โอนย้ายไอเท็ม"
+	}
+	"UnEBan a Player"
+	{
+		"th" 	"UnEBan ผู้เล่น"
+	}
+	"Receiver of the Item"
+	{
+		"th" 	"ผู้รับไอเท็ม"
+	}
+	"Item Info"
+	{
+		"th" 	"ข้อมูลไอเท็ม"
+	}
+	"Owner"
+	{
+		"th" 	"เจ้าของ"
+	}
+	"Mode"
+	{
+		"th" 	"โหมด"
+	}
+	"CoolDown"
+	{
+		"th" 	"คูลดาวน์"
+	}
+	"Max Uses"
+	{
+		"th" 	"ใช้ได้สูงสุด"
+	}
+	"Mode Default"
+	{
+		"th" 	"สแปมสำหรับป้องกันเท่านั้น"
+	}
+	"Mode 2"
+	{
+		"th" 	"คูลดาวน์"
+	}
+	"Mode 3"
+	{
+		"th" 	"ใช้ได้แบบจำกัด"
+	}
+	"Mode 4"
+	{
+		"th" 	"ใช้ได้แบบจำกัดโดยที่มีคูลดาวน์"
+	}
+	"Mode 5"
+	{
+		"th" 	"คูลดาวน์หลังจากที่ใช้ไปหลายครั้ง"
+	}
+	"Minutes"
+	{
+		"th" 	"นาที"
+	}
+	"Hour"
+	{
+		"th" 	"ชั่วโมง"
+	}
+	"Day"
+	{
+		"th" 	"วัน"
+	}
+	"Week"
+	{
+		"th" 	"สัปดาห์"
+	}
+	"Month"
+	{
+		"th" 	"เดือน"
+	}
+	"Item misuse"
+	{
+		"th" 	"จงใจใช้ไอเท็มแบบผิดๆ"
+	}
+	"Trolling on purpose"
+	{
+		"th" 	"Troll หรือแกล้งโดยมีเจตนา"
+	}
+	"Throwing item away"
+	{
+		"th" 	"ทิ้งไอเท็มไปอย่างไม่สนใจ"
+	}
+	"Not using an item"
+	{
+		"th" 	"ไม่ยอมใช้ไอเท็ม"
+	}
+	"Trimming team"
+	{
+		"th" 	"จงใจทำให้เพื่อนร่วมทีมตาย"
+	}
+	"Spamming an item"
+	{
+		"th" 	"สแปมใช้ไอเท็ม"
+	}
+	"Not listening to leader"
+	{
+		"th" 	"ไม่ฟังผู้นำหรือ Leader"
+	}
+	"Other"
+	{
+		"th" 	"อื่นๆ"
+	}
+	"Expires"
+	{
+		"th" 	"หมดอายุ"
+	}
+	"On Map Change"
+	{
+		"th" 	"ตอนเปลี่ยนแผนที่"
+	}
+	"Never"
+	{
+		"th" 	"ไม่มีวัน"
+	}
+	"Spawn Item"
+	{
+		"th" 	"spawn ไอเท็ม"
+	}
+	"On Player"
+	{
+		"th" 	"ใส่กับผู้เล่น"
+	}
+	"List to Spawn"
+	{
+		"th" 	"รายชื่อไอเท็มที่จะ Spawn"
+	}
+	"Strip Weapon"
+	{
+		"th" 	"Strip Weapon"
+	}
+	"Not Strip Weapon"
+	{
+		"th" 	"ไม่ใช้ Strip Weapon"
+	}
+	"Recipient of a New Item"
+	{
+		"th" 	"ผู้รับไอเท็มใหม่"
+	}
+	"No Items for Spawn"
+	{
+		"th" 	"ไม่มีไอเท็มให้ Spawn"
+	}
+	"Is not restricted"
+	{
+		"th" 	"ไม่ได้ถูกระงับอยู่"
+	}
+	"Status restricted"
+	{
+		"th" 	"คุณได้ถูกระงับการใช้ไอเท็มในปัจจุบัน"
+	}
+	"Status unrestricted"
+	{
+		"th" 	"คุณไม่ได้ถูกระงับการใช้ไอเท็มในปัจจุบัน"
+	}
+	"Default"
+	{
+		"th" 	"ปกติ"
+	}
+	"Hud Names"
+	{
+		"th" 	"ชื่อใน HUD เป็น"
+	}
+	"Offline EBan"
+	{
+		"th" 	"Offine EBan"
+	}
+	"Offline Restricted"
+	{
+		"th" 	"ระงับการใช้ไอเท็มแบบ offline"
+	}
+	"List of Disconnected Players"
+	{
+		"th" 	"รายชื่อผู้เล่นที่ออกจากเกมส์"
+	}
+	"Minutes Ago"
+	{
+		"th" 	"นาทีที่แล้ว"
+	}
+	"Info Offline Player"
+	{
+		"th" 	"ข้อมูลผู้เล่นที่ Offline"
+	}
+	"Came out"
+	{
+		"th" 	"ออกมาตอน"
+	}
+	"Last Item"
+	{
+		"th" 	"ไอเท็มสุดท้าย"
+	}
+	"Not have permission pEBan"
+	{
+		"th" 	"คุณไม่มีสิทธิ์ที่จะ EBan ผู้เล่นอย่างถาวร"
+	}
+	"Not have permission lEBan"
+	{
+		"th" 	"คุณไม่มีสิทธิ์ที่จะ EBan ผู้เล่นนานมากกว่า 12 ชั่วโมง"
+	}
+	"Not have permission rEBan"
+	{
+		"th" 	"คุณไม่มีสิทธิ์ที่จะลบ EBan จากผู้เล่น"
+	}
+}
