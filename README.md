@@ -16,7 +16,7 @@ Source code for sourcemod plugin with thai translation by Oylsister. Most of the
 9. Noshake (100%) https://github.com/IT-KiLLER/ze-plugins/tree/master/NoShake/scripting
 10. MapChooser-Extended (100%) https://github.com/oylsister/mapchooser-extended
 11. EntWatch-DZ (100%) https://github.com/oylsister/CSGO-Plugins/tree/master/EntWatch_DZ
-12. BossHud (100%) https://github.com/oylsister/Zombie-Escpe-Thailand-Community/
+12. BossHud (100%) https://github.com/oylsister/Zombie-Escpe-Thailand-Community/tree/main/Plugins/Bhud
 
 ## ปลั๊กอินอื่นๆ
 1. HUDLimitIncrease - เพิ่มขีดจำกัดในการแสดงค่า HP และกระสุน https://forums.alliedmods.net/showthread.php?t=314962
