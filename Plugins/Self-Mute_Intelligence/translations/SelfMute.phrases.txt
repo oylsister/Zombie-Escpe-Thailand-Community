@@ -1,0 +1,74 @@
+"Phrases"
+{
+	"prefix"
+	{
+		"en"	"{green}[Self-Mute]{default}"
+	}
+	"Library_Error"
+	{
+		"en"	"An error has occurred with the libraries. The plugin is disabled."
+	}
+	"Muted_self"
+	{
+		"en"	"You can not mute yourself."
+	}
+	"Unmuted_self"
+	{
+		"en"	"You can not unmute yourself."
+	}
+	"Menu_Title"
+	{
+		"en"	"Self-Mute Intelligence"
+	}
+	"Couldnt_FindPlayer"
+	{
+		"#format"	"{1:d}"
+		"en	"Could not list any players, you already have muted {red}{1}{lightgreen} players"
+	}
+	"Player_Unavailable"
+	{
+		"en"	"Player no longer available."
+	}
+	"Muted_admin"
+	{
+		"#format"	"{1:N}"
+		"en"	"You can not mute an admin: {lightblue}{1}"
+	}
+	"Couldnt_Mute"
+	{
+		"#format" 	"{1:N}"
+		"en"	"The client could not be muted: {lightblue}{1}"
+	}
+	"Target_Muted"
+	{
+		"#format" 	"{1:N}"
+		"en"	"You have self-muted: {1}"
+	}
+	"Target_Muted_Multi"
+	{
+		"#format"	"{1:d},{2:s}"
+		"en"	"You have self-muted({1}){green}: {2}"
+	}
+	"Already_Muted_All"
+	{
+		"en"	"Everyone in the list was already muted."
+	}
+	"No_Player_Muted"
+	{
+		"en"	"No players are muted."
+	}
+	"Target_Unmuted"
+	{
+		"#format"	"{1:N}"
+		"en"	"You have self-unmuted: {1}"
+	}
+	"Target_Unmuted_Multi"
+	{
+		"#format"	"{1:d},{2:s}"
+		"en"	"You have self-unmuted{1}{green}: {2}"
+	}
+	"Already_Unmuted_All"
+	{
+		"en"	"Everyone in the list was already unmuted."
+	}
+}
