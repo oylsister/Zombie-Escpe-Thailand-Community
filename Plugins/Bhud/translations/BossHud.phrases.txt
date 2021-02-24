@@ -1,0 +1,43 @@
+"Phrases"
+{
+	"prefix"
+	{
+		"en" 	"{green}[BossHUD]"
+		"th"	"{green}[BossHUD]"
+	}
+	"Cookies_MenuName"
+	{
+		"en"	"[BossHUD] Toggle Showing Entity Health"
+		"th"	"[BossHUD] ตั้งค่าแสดงเลือดบอส"
+	}
+	"Toggle_BHud"
+	{
+		"en"	"{default}BossHUD is now"
+		"th"	"{default}ตัวแสดงเลือดสิ่งของอื่นใดๆ"
+	}
+	"Toggle_Hitmarker"
+	{
+		"en"	"{default}Hitmarker is now"
+		"th"	"{default}ตัว Hitmarker"
+	}
+	"Menu_BHud"
+	{
+		"en"	"Showing Enitity Health"
+		"th"	"แสดงเลือดสิ่งของ"
+	}
+	"Menu_Hitmarker"
+	{
+		"en"	"Hitmarker"
+		"th"	"Hitmarker"
+	}
+	"Enabled"
+	{
+		"en"	"Enabled"
+		"th"	"ถูกเปิดแล้ว"
+	}
+	"Disabled"
+	{
+		"en"	"Disabled"
+		"th"	"ถูกปิดแล้ว"
+	}
+}
